@@ -1,0 +1,34 @@
+- Charley patton high water everywhere song for discussion next week
+- High water everywhere has irregular form
+## From class movie
+- Willie Foster
+- 
+- Koko taylor
+	- Came from the south
+	- Reminder of hard time
+	- Being black in america
+	- End of year, her father was paid was paid in flour, mollasses, lard
+- BB king
+	- Slaves haf a language in blues that other slaves would understand
+- Little milton
+	- End of the year, fortunate to come out w/ profit
+	- Usually hardly break even
+	- Deeper into debt as time went on 
+	- Blon Blake had a lot of influence on the Blues
+- Othar turner
+- Jerry Ricks
+	- Hearing the blues in other people (Talking about Othar)
+- John Jackson
+	- Making instruments from scratch
+	- Othar making a flute
+- RL Burnside
+- Charles Brown
+	- Sharing music between friends, come over and listen
+	- Coundn't understand what blues singers were saying, but they cound understand what they were feeling
+- Hubert Sumlin
+- Pinetop Patton
+	- Using guitar as percussion, talking about Charley Patton
+- Willie Bass Plantation site
+- Rufus Thomas
+
+- Women in 20s-30s were big blues attractions, had the right voices
