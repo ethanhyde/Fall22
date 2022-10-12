@@ -314,5 +314,106 @@ Objects or locations?
 	- Attention is with objects not locations
 	- Result is to bias out visual system
 	- Wants to look for new things
-# I AM TESTING TO SEEEE
-TESTING TESTING TESTING
+
+# Week 3 Tuesday 10/11
+First exam is next week
+### Attention 2
+Metaphor for visual attention
+- Spotligt of attention
+
+Constraining spotlight
+- Can attention zoon in to focus on some things then move out?
+- Flanker effect
+	- Center letter class example
+	- When center letter is differrent, 100ms slower than when all the same
+- Attention diffuses, but centered over an are
+- Spotlight of attention can change sizes based on the task
+
+Automatic and controlled processing
+- Attention can be direc. voluntairly or involu.
+- Automat. process. typically don't require attention
+	- Built thru practice
+- Controlled proce. *do* require attention
+- Convienent dichotomy
+	- continuum
+- Many behaviors are complex interaction of auto and controlled processing
+
+Posnery and Snyder - auto and controlled processing
+- Automatic (not thinking about it)
+	- Occurs w/o intention
+	- Not open to introspection
+	- Conumes few resources
+	- Operates fast
+	- Just Facilitation
+- Controlled/Effortful (thinking about it)
+	- Only with intention
+	- Open to introspection
+	- Needs resources
+	- Slow
+	- facilitation and inhibition
+
+Stroop interference
+- Neutral RD < incongruent RT
+	- Word reading
+		- Fast, effortless
+	- Color naming
+		- Slow, effortful, controlled
+
+Preattentive processes
+- Fast, parallel, unlimited capacity, operated over whole visual field
+Attentive processes
+- Slow, serial, limited capacity, small portons of visual field (focusing)
+
+Feature and conjunction search
+- Feature - preattentive
+	- Automatic, Fast, Independent number of distractors
+- Conjuction - Attentive
+	- Controlled, slow effortful, depents on # of distractors
+
+Feature integration theory
+- Anne triesman, Princeton
+- Object broken down into features in parallel across visual field
+- Attention neded to bind features tgth
+
+Feature integration theory
+- Early stage or processing
+	- Feature maps code diff dimentions of stimulus
+	- Features coded independen. in parallel, and over entire visual field
+- Focused attn.
+	- Needed to bind info to individual maps into object representations
+	- Occurs only in focus of attn. slow, serial
+
+Triesman's feature integration theory
+- Accounts for results from feature search
+	- Red L among blue letters just look for red activity in map
+- Conjunction search
+	- Requires attentio to recombine features together
+	- Looking for red L among blue L and red Ts
+
+Attentional capture
+- Irrelevent sens info can capture attn.
+- Presence of salient distractor slows responses to targets by diverting attn
+
+Sustained attn
+- Sustaining attn - vigilance
+- Very difficult to maintain attn on task for a long period of time
+- Performance on many tasks decreases over the first 10 mins on task
+	- RT increases and accuracy decreases (reation time)
+- Increases in mind wandering and daydreaming
+- Importand for applied progs
+	- Air traffic control, security guards, TSA
+
+Neuropsychological
+- Number of groups tend to be more inconsistent in their preformance relative to control group
+- Including
+	- ADHD
+	- Old people
+	- Brain damage
+	- Alzheimer's ... etc
+
+Other aspects of attention
+- Orienting reflex and habituation (Sokolv 1963)
+- Humans and other animals initially orient to novel info
+- After repetitions of same stimuli, become habituated to it, less likely to respond
+- New stim enters, new reflex
+
