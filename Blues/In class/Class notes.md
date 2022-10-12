@@ -87,3 +87,72 @@ Bessie Smith
 	- Influenced rock music heavily in the 60s, Muddy waters, Robert Johnson
 - In 1930 house recorded "Preachin' the Blues"
 	- Deals w/ House's lifelong conflict between god and the blues
+
+# Week 3 Wednesday 10/12
+#### Country blues 
+Conditions of contry blues production
+- Regional styles
+	- The "deep south"
+
+Texas
+- Earliest (Hart wand, "Dallas blues")
+- Most popular (Jefferson)
+- Too broad to generalize
+	- Most black texans arrive after emancipation
+- Blind Lemon Jefferson	
+	- Sold more records than any coutry blues artist
+- Blind Willie 
+- Texas Alexander, and Lonnie Johnson "Section gang Blues (1927)"
+
+Piedmont
+- Carolinas, Georgia, Virginia
+- Settled populations
+	- Fond of older styles (ragime, minsterel)
+- "Ragtime" guitar, often 12-string
+- Blind Blake, Willie Mctell
+- Willie McTell, "Statesboro blues (1928)"
+
+Mississippi delta
+- Relatively new population
+	- Annual floods made settlement difficult
+- Dense black population 
+	- >90%
+- Open to new styles
+- Variety of approaches (Sheiks, John Hurt, etc.)
+- Mississippi Sheiks
+	- Most popular recording act of the Delta at time
+	- Led by vocalist Lonnie Chatmon
+	- Read sheet music and kept up w/ latest hits
+	- Played both for black plantation daces and better playing white gigs
+	- Records copied and remembered by white as well as black musicians
+	- Repuation now overshadowed by Patton
+		- Contry blues received historical interest during 1960 folk blues revival
+
+Live performance
+- For community gatherings
+- Juke joints
+	- Appropriated previous spaces (Someone's home, abandoned shack, open field)
+	- Added a bar, places to sit, smace for dancing and decorations
+	- Tended to run at inconsistent houes, whenever availible to play
+	- Notice of performance spreading thru comminuty networks rather than official advertising
+	- Zora Neile Hurton wrote "musically speaking, the Jook is the most importand place in America (1934)"
+	- Communal quality of blues: performer "makes the way 'we' into their 'i'"
+	- For black audiences and occasionally white ones
+	- White parties paid better, and may have been safer (No police raids) - Miller
+
+Recording
+- Scouts from northern record labels or local representatives
+- Privileged artists who lived in (or could get to) urban centers
+- Sold to regional black audiences who wanted to hear performers that sounded familiar
+
+King of Delta blues singers? (Robert Johnson)
+- Marketed as "King of Delta Blues singers" but title doesn't fit facts of his carreer
+- During his lifetime, Johnson wasn't nearly as well known or influential as charley patton
+- Recorded output was much less than Patton's
+- Younger than Patton, Joh Hurt, Son House
+- Started his professional carreer later than those three
+- By 1936, Johnson first recorded, commercial recording carreers of Patton, Hurt, and House had stopped
+- Being younger, Johnson was able to learn through the photograph record styles of other blues musiand from other regions
+- Synthesizes these artists' styles w/ Miss Delta styles
+- Heard Delta styles first hand and ww/ his own unique style
+- 
