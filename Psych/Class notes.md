@@ -1,3 +1,4 @@
+Just testing to see if this is actually working man I hope it is
 # Tuesday 09/27 Week 1
 Why is cognition important?
 - Basic part of what it is to be human
