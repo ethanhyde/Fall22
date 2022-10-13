@@ -469,3 +469,116 @@ Echoic Memory
 	- Series of stimuli
 	- Scored as correct if correct item in correct position
 - Experimental effects: Modality and suffic effects
+
+Terminology
+- Serial position curve plots performance as a function of item order
+- Primary effect advantage for the first items over items in the middle
+- Recency effect: advantage for te last items over items in the middle
+
+Modality effect
+- Serial recall as a function of serial position for words eard and words seen
+- Recency superior when words read aloud
+	- The modality effect refers to a change in the size of the recency effect
+- Recalling auditory stimuli lasts longer compared to recalling visual stimuli
+
+Suffix effect
+- Extra material, or "suffix" at end of the list
+- "when you hear the word 'zero' recall the list"
+- Recency effect goes away if suffix resembles speech
+- Suffic effect also refers to a change in the recency effect
+
+Echoic memory
+- Crowder and morton (1969) proposed serial recall modality and suffix effects a consequence of recall from echoic memory
+- Echoic mem is auditory store that holds info for a short time (2s)
+- Recency predicted to be a function of unique info in echoic mem
+	- Modality effect
+- Echoic mem subject to interference
+	- Suffix effect
+
+Problems with echoic mem
+- Suffic effect depends on how suffix interpreted
+- Ayers (1979)
+- 3 groups: Control, Musical suffix, speech suffic
+- Musical and speech got same syllable (wa)
+- Suffix effect only when interpreted as speech
+- Singers and lip-readers show suffix effect
+
+Conclusions about sens mem
+- Sens mem studied exclusively in visual and auditory modalities
+- Sperling's iconic mem (vision)
+- Chowder's echoic mem (audition)
+- Other types of sensory mems
+
+### Mental imagery
+Mental imagery 
+- Experiencing a sensory impression in the absense of sens input
+
+Problems posed by imagery
+- Generation
+	- How many images created?
+- Inspection
+	- Once created, what mechanisms allow access to info?
+- Maintenance 
+	- Images seem to face, what keeps them active?
+- Trannsform
+	- How are we able to manipulate images and objects
+
+Mental rotation
+- Roger shepard, stanford uni
+- Decide if two stimuli are the same or diff
+- Stimuli are presented at diff orientations
+- Measure time required for same/diff response
+- Found that RT was liearly related to degree difference in rotation
+- As if observers mentally rotated one figure before comparing with other
+
+Retreiving info from images
+- Memorize images with several objects
+- After memorizing, participants asked to close eyes and "look" at one part of the object
+- Presented w/ prompt (is there an achor? is there a motor?) - and respond "yes/no"
+- RT for far part > RT for near part
+	- Mentally traveling along the object to recall different features
+
+Depictive theory
+- Depictive representations
+	- Visual 
+	- Can't refer to nonpicturable events or relations
+	- Specific instances only (don't visualize the class of "balls" you visualize a specific one)
+	- **Functional isommorphism** between real visual info and visual imagery
+
+Propositional theory
+- Propositional
+	- Objects and relations between objects
+	- Ball is on the box
+	- Propositions can be about specific objects or tey can represent whole classes of objects
+	- Subjective experience of imageru isn't relavent to understanding the cognitive processes
+
+Why the attachment to propositions
+- Computational theory of mind
+	- Easy to program propositions
+	- What does mental imagery mean to computer?
+	- who looks at image?
+- Retrieving info from images
+	- Time to retrieve depends on number of links
+
+The counterattack
+- Pylyshyn (1981)
+	- Instructions typically say "scan the pic" look from one object to another
+	- Participants interpret this to mean they should behave as if images were just like real visual stim
+		- Tactic knowledge explaination
+	- Can assume propositional representation and get sim results
+
+How might imagery be implemented in brain?
+- If representations are "depictive," than they perseve spatial relations present in real vision
+- Where in the brain are representations that are spatially organized - vis cortex
+
+How might imagery be implemented in brain?
+- 2 conditions
+	- Participants look at complex visual display
+	- Participants imagine complex visual display
+
+Pupil and imagery
+- Pulils constrict to light, dialate to darkness
+- (2014 study) had participants stare at blank gray screen and imagine diff scenes
+- Pupils adjust to imaginary light
+	- (imagine sunny sky, imagine dark room - pupil changed size)
+
