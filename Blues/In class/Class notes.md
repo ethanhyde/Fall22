@@ -155,4 +155,3 @@ King of Delta blues singers? (Robert Johnson)
 - Being younger, Johnson was able to learn through the photograph record styles of other blues musiand from other regions
 - Synthesizes these artists' styles w/ Miss Delta styles
 - Heard Delta styles first hand and ww/ his own unique style
-- 
