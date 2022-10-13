@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "review of topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "review of topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "review of topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Psych/Class notes.md"
+                "file": "review of topics.md"
               }
             }
           }
@@ -142,6 +142,7 @@
   },
   "active": "e14ee49655fb9691",
   "lastOpenFiles": [
+    "exam stuff.md",
     "Psych/Class notes.md",
     "Untitled.md",
     "CS/In class/Class notes.md",
