@@ -417,3 +417,55 @@ Other aspects of attention
 - After repetitions of same stimuli, become habituated to it, less likely to respond
 - New stim enters, new reflex
 
+# Week 3 Thursday 10/13
+### Sensory memory and imagery
+##### this is on the exam
+- Perveption vs memor
+	- Perception - stimulus is out in the environment
+- Often a "sensory trace" of the stilulus after stim is gone
+- Traces are termed *sensory memory* tend to be very short lived
+	- How long?
+
+General sens memory
+- Must have way to briefly retain sens info to allow for later integration
+- Doesn't matter what kind of sens info we are talking abt
+- Most research focus on visual and auditory mem
+	- Iconic memory
+	- Echoic memory
+		- Echo in head even though sound is gone
+	- These systems are easiest to study, so we know the most
+
+Iconic memory
+- Sperling (1960)
+	- How much info can be retained?
+	- How quickly is it lost?
+
+Whole report vs partial report (from Sperling)
+- Briefly (50ms) flash array of stimuli
+- Whole report: tell me all the letters
+- Partial report: tell me one row
+	- But you don't know which rowuntil stim is gone
+- Vary duration between stim offset and cue onset
+
+Whole report results
+- Whole report estimates "size" of memory at 4.5 items
+- Subjects reported seeing more than they could say
+
+Sperling's interpretation
+- Partial report superior to whole report because it takes time to say the letters
+- Rapidly decaying visual score
+- Decaying - Lasts a short time regardless of input
+	- Lasts 800ms - 1s
+- Visual - shouldn't depend on info from other modalities
+
+Problems?
+- Just visual? Phonological errors
+	- P presented, but participants say E
+- Residual neural activity vs memory
+
+Echoic Memory
+- Like iconic mem, but in auditory modality
+- Rely heavily on serial recall
+	- Series of stimuli
+	- Scored as correct if correct item in correct position
+- Experimental effects: Modality and suffic effects

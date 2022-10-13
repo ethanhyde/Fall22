@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "d89fb44986761180",
+    "type": "split",
+    "children": [
+      {
+        "id": "a098102ca1692648",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e14ee49655fb9691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Psych/Class notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d134fc257245ee1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "673d9fd6e168ed35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f880e4e48f22312c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6715b36142fc711a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7777745a7e9bcc15",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f86a2244e0769a11",
+    "type": "split",
+    "children": [
+      {
+        "id": "78823cfeaeb6e05c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "facf65efda9f78c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Psych/Class notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dd21491fc896894",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Psych/Class notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f88eb24ea15039e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "54e5c0d6adfd0db0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Psych/Class notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 100,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "e14ee49655fb9691",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Psych/Class notes.md",
+    "CS/In class/Class notes.md",
+    "Blues/In class/Class notes.md",
+    "Blues/In class/Things for test.md",
+    "Blues/Homework/Week 2 reading.md",
+    "Blues/Homework/Week 1 Reading and videos.md",
+    "CS/Class notes.md"
+  ]
+}
