@@ -188,3 +188,42 @@ int * x = &y
 int z = * x
 //If printed, would be the addresses and values of the pointers
 ```
+
+# Week 3 Thursday 10/13
+Pointer arithmetic
+- int * p = malloc(sizeof(int)* 5);
+- c allows you to modify pointers using pointer arithmetic
+
+Dereferencing
+- * is the dereference operator
+- Another one is []
+```C
+int * p = malloc(sizeof(int)* 1);
+* p = 2; //Sets memory p to have value 2
+p[0] = 2; //Sets memory p points to have value 2
+```
+Pointers to pointers
+```C
+int ** p = malloc(sizeof(int *)* 5);
+p[0] = malloc(sizeof(int)* 50);
+```
+- Sizeof tells you number of bytes associated w/ type
+	- Not the actual size of the array
+
+Memory segments
+- Program is divided into 4 segments
+	1. Code segments
+		- where machine instructions are
+	2. Data segments
+		- Where global variables live and other things
+	3. "Stack"
+		- Where automatic mem lives
+	4. "Heap"
+		- Where dynamic mem lives 
+
+Stack overflow
+- When stack goes into the heap
+
+Character strings
+- Array of type "char"
+- Terminated by null char
