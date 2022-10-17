@@ -13,7 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Writing exercise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b35ceaa18f21209d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4fcea33b45ba0cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Blues/In class/Class notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "365debe6c466121b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blues/Homework/Week 2 reading.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,17 +169,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2fd27fecd8399249",
+  "active": "d4fcea33b45ba0cb",
   "lastOpenFiles": [
+    "Writing exercise.md",
+    "Blues/Homework/Week 2 reading.md",
+    "Blues/In class/Class notes.md",
     "review of topics.md",
     "exam stuff.md",
     "Psych/Class notes.md",
     "Untitled.md",
     "CS/In class/Class notes.md",
-    "Blues/In class/Class notes.md",
     "Blues/In class/Things for test.md",
-    "Blues/Homework/Week 2 reading.md",
-    "Blues/Homework/Week 1 Reading and videos.md",
-    "CS/Class notes.md"
+    "Blues/Homework/Week 1 Reading and videos.md"
   ]
 }

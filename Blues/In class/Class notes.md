@@ -185,9 +185,54 @@ Robert Johnson
 	- Intimate singing styles enabled by improved recording tech (mics)
 		- Condenser and ribbon microphones - still widley used in studio recordings
 		- Invented in 1920s and improved throughout decade
+
 Leroy Carr
 - Composer, singer, pianist
 - Born in Nashville but worked in Indianapolis
 - Sang in light, conversational, assured style
 - His tunes covered by Ray Charles, Sam Cookes, Nat "King" Cole, Ellington, Basie...
-- 
+
+Tampa Red and Georgia Tom
+- Risque party music that came to be known as "hokum"
+- "It's tight like that (1928)"
+	- Papa Charlie Jackson, "Shake that Thing (1925)" was lyrical model
+- Georgia Tom had been Ma Rainey's pianist but had recently been composing religious music
+- Also known as Thomas A dorsey
+	- Would become "Father of gospel music" as author of gospel standards
+	- Then mentor to Mahalia Jackson
+- One foor in secular, one foot in sporitual world 
+	- Common blues theme
+
+The great migration
+- Mass migration of black Americans from South to urban centers in North, West, and midwest
+- Between 1916 and 1919, 500,000 migrants
+- 1920s - 1 million migrated
+- Popular destinations
+	- Detroit, Kansas City, St. Louis, NYC, Chicago, Denver, Philadelphia
+- Viewed another way:
+	- 1910 >90% of black Americans lived in southern states
+	- By 1930 - only 77%
+	- Northern cities' black population expanded
+	- Detroit 
+- Causes:
+	- Economic opportunities
+		- Manufacturing jobs availible due to labor shortages during WW1
+	- Escaping ratial terror
+		- Lynching
+		- Jim crow segregation
+
+The great depression (1929-1933)
+- US stock market crashes October 1929
+- Unemployment rises to 23%
+- US industrial production drops 46%
+- Large touring shows fold
+- Vaudeville theatres close
+- Record companies go bankrupt as sales plummet
+- Is the blues "boom" finished?
+- Popular new forum for blues performance
+	- Rent parties
+	- Apartment buldings
+	- Cover charge helps the host make rent
+	- Volume was an issue
+
+[[Writing exercise]]
