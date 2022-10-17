@@ -155,3 +155,39 @@ King of Delta blues singers? (Robert Johnson)
 - Being younger, Johnson was able to learn through the photograph record styles of other blues musiand from other regions
 - Synthesizes these artists' styles w/ Miss Delta styles
 - Heard Delta styles first hand and ww/ his own unique style
+# Week 4 Monday 10/17
+### Robert Johnson
+Robert Johnson
+- Born in mississippi and grew up there and in arkansas
+- Young johnson was son of terrible guitarist
+- Later studied guitar with informal teachers
+	- Fingerpicking, bottleneck slide
+- Records twice in Texas for American Record company (1936, 1937)
+- Recordings generated interest in white afficionados
+	- John Hammond, who produces "Spirituals to Swing" concerts at Carnegie Hall
+	- Alan Lonax, who in 1941 sought similar acts and recorded Muddy Waters
+- 1960s listeners thought of him as old, folkloric, and authentic
+- He was authentic at plying his trade, knowing and performing a variety of repertoire for varoius audiences, striving for commercial success
+- Infuence
+	- Influenced next generation of blues musicians, many moved to the city and electrified their guitars
+	- Muddy waters, Elmore James, Johnny Shines and Robert Jr. Lockwood
+	- 1990 CD reissue *Robert Johnson: the complete recordings* sold over 1,000,000 copies and won granny award
+	- In 1986, Johnson inducted into Rock and roll hall of fame as early influence of rock music
+- Johnson's legacy
+	- In 2000, court of law found that claus johnson of mississippi was son of Robert Johnson and Virgie Jame Smith
+	- Claud Johnson
+
+### Defining the urban blues
+- Recorded in urban certers like Chicago and NYC
+- Spoke to(and purchased by) people migrating from the south
+	- Great migration
+- Regarded as hip, up to date, suave
+	- Intimate singing styles enabled by improved recording tech (mics)
+		- Condenser and ribbon microphones - still widley used in studio recordings
+		- Invented in 1920s and improved throughout decade
+Leroy Carr
+- Composer, singer, pianist
+- Born in Nashville but worked in Indianapolis
+- Sang in light, conversational, assured style
+- His tunes covered by Ray Charles, Sam Cookes, Nat "King" Cole, Ellington, Basie...
+- 
