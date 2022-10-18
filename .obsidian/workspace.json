@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a098102ca1692648",
+        "id": "87b4309217aa4189",
         "type": "tabs",
         "children": [
           {
-            "id": "e14ee49655fb9691",
+            "id": "b08e77c38c90d982",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "review of topics.md",
+                "file": "Blues/Homework/Week 3 reading.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "review of topics.md",
+                "file": "Blues/Homework/Week 3 reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "review of topics.md",
+                "file": "Blues/Homework/Week 3 reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "review of topics.md"
+                "file": "Blues/Homework/Week 3 reading.md"
               }
             }
           }
@@ -140,11 +140,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e14ee49655fb9691",
+  "active": "b08e77c38c90d982",
   "lastOpenFiles": [
+    "review of topics.md",
     "exam stuff.md",
     "Psych/Class notes.md",
-    "Untitled.md",
+    "Blues/Homework/Week 3 reading.md",
     "CS/In class/Class notes.md",
     "Blues/In class/Class notes.md",
     "Blues/In class/Things for test.md",
