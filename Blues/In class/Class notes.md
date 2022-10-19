@@ -236,3 +236,73 @@ The great depression (1929-1933)
 	- Volume was an issue
 
 [[Writing exercise]]
+
+# Week 4 Wednesday 10/19
+### Urban Blues, and the Chicago Scene of 1930s
+
+Blues during the great depression
+- Classic and Country blues in decline
+	- fever Southern field trips for recording
+	- Fewer chances taken on new artists
+	- 46% in industrial decline 
+- Lots of theatres and record comanies had to close or pause their productoin
+- Less Country blues being recorded
+	- Record companies have less money, take fewer chances on new musicians
+- Fasions and tastes changing from the public
+	- Enjoyed music that adapted styles but more modern and urban format "urban blues"
+- Hokum was popular
+	- Party music, risque
+	- "It's tight like that" - early example of hokum music
+- Many records were made by a small group of professionals
+	- Played on each other's sessions, backing vocalists
+- Chicago cements its reputation as capital of the blues
+- Popular artists include:
+	- Tampa Red, Big Bill Broonzy, Lonnie Johnson, Bumble Bee Slim, Memphis Minnie, Roosevelt Skies
+		- All released over 100 songs in 1930s
+
+Urban Blues: Case Studies
+- Lonnie Johnson
+	- Born in New Orleans 
+	- Entered and won blues contest in St. Louis in 1925
+		- Okeh record contract first prize
+		- "I guess I would have done anything to get recorded. It just happened to be a blues contest so I sang blues"
+	- Popular Chicago session musician in 1930s
+		- Backed many vocalists
+	- "Mr. Johnson's Blues No.2"
+		- 12 string guitar and piano
+	- Light, crooner's voice
+- Bing Crosby
+	- Smooth urbane singing
+		- Microphone
+	- Immensely popular
+	- Wocalist w/ Paul Whiteman Orchestra
+- Memphis Minnie (1897 - 1959)
+	- Born Luzzie Douglas in southern Louisiana
+	- Moved outside memphis 1904
+	- Traveled w/ shows and circuses
+	- Marries musician Joe McCoy
+	- "When The Levee Breaks"
+		- Two guitars
+		- 12 bar form(not in instramental break)
+		- AAB lyrics
+		- Kokomo Arnold "Milk Cow Blues" - takes influence from this
+	- Versitile performer
+		- Changed w/ the times
+		- piano/guitar duos in 1930s
+		- Vocals retain rougher "country" edge
+		- Distributed list of songs that audience members could request
+		- "How high the moon", Lady be good, 
+
+What the records missed
+- Many record producers required black artists to record original blues, to the exclution of other types of songs in their repertoire
+	- Popular songs
+	- Tin pan alley numbers
+	- Ballands
+
+Harlem Hamfats
+- Studio band assembled by producer Mayo Williams
+- Mix of musicians from Mississippi, New Oreleans, Chicago
+	- Guitar and vocals by "Kansas" Joe Mcoy
+- Hamfats, "Oh Red (1936)"
+	- C0vered by Count Basie Blind Willie McTell, The Ink Spots
+	- Guitar, piano, banjo, trumpet, clarinet, bass, drums
