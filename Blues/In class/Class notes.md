@@ -155,3 +155,84 @@ King of Delta blues singers? (Robert Johnson)
 - Being younger, Johnson was able to learn through the photograph record styles of other blues musiand from other regions
 - Synthesizes these artists' styles w/ Miss Delta styles
 - Heard Delta styles first hand and ww/ his own unique style
+# Week 4 Monday 10/17
+### Robert Johnson
+Robert Johnson
+- Born in mississippi and grew up there and in arkansas
+- Young johnson was son of terrible guitarist
+- Later studied guitar with informal teachers
+	- Fingerpicking, bottleneck slide
+- Records twice in Texas for American Record company (1936, 1937)
+- Recordings generated interest in white afficionados
+	- John Hammond, who produces "Spirituals to Swing" concerts at Carnegie Hall
+	- Alan Lonax, who in 1941 sought similar acts and recorded Muddy Waters
+- 1960s listeners thought of him as old, folkloric, and authentic
+- He was authentic at plying his trade, knowing and performing a variety of repertoire for varoius audiences, striving for commercial success
+- Infuence
+	- Influenced next generation of blues musicians, many moved to the city and electrified their guitars
+	- Muddy waters, Elmore James, Johnny Shines and Robert Jr. Lockwood
+	- 1990 CD reissue *Robert Johnson: the complete recordings* sold over 1,000,000 copies and won granny award
+	- In 1986, Johnson inducted into Rock and roll hall of fame as early influence of rock music
+- Johnson's legacy
+	- In 2000, court of law found that claus johnson of mississippi was son of Robert Johnson and Virgie Jame Smith
+	- Claud Johnson
+
+### Defining the urban blues
+- Recorded in urban certers like Chicago and NYC
+- Spoke to(and purchased by) people migrating from the south
+	- Great migration
+- Regarded as hip, up to date, suave
+	- Intimate singing styles enabled by improved recording tech (mics)
+		- Condenser and ribbon microphones - still widley used in studio recordings
+		- Invented in 1920s and improved throughout decade
+
+Leroy Carr
+- Composer, singer, pianist
+- Born in Nashville but worked in Indianapolis
+- Sang in light, conversational, assured style
+- His tunes covered by Ray Charles, Sam Cookes, Nat "King" Cole, Ellington, Basie...
+
+Tampa Red and Georgia Tom
+- Risque party music that came to be known as "hokum"
+- "It's tight like that (1928)"
+	- Papa Charlie Jackson, "Shake that Thing (1925)" was lyrical model
+- Georgia Tom had been Ma Rainey's pianist but had recently been composing religious music
+- Also known as Thomas A dorsey
+	- Would become "Father of gospel music" as author of gospel standards
+	- Then mentor to Mahalia Jackson
+- One foor in secular, one foot in sporitual world 
+	- Common blues theme
+
+The great migration
+- Mass migration of black Americans from South to urban centers in North, West, and midwest
+- Between 1916 and 1919, 500,000 migrants
+- 1920s - 1 million migrated
+- Popular destinations
+	- Detroit, Kansas City, St. Louis, NYC, Chicago, Denver, Philadelphia
+- Viewed another way:
+	- 1910 >90% of black Americans lived in southern states
+	- By 1930 - only 77%
+	- Northern cities' black population expanded
+	- Detroit 
+- Causes:
+	- Economic opportunities
+		- Manufacturing jobs availible due to labor shortages during WW1
+	- Escaping ratial terror
+		- Lynching
+		- Jim crow segregation
+
+The great depression (1929-1933)
+- US stock market crashes October 1929
+- Unemployment rises to 23%
+- US industrial production drops 46%
+- Large touring shows fold
+- Vaudeville theatres close
+- Record companies go bankrupt as sales plummet
+- Is the blues "boom" finished?
+- Popular new forum for blues performance
+	- Rent parties
+	- Apartment buldings
+	- Cover charge helps the host make rent
+	- Volume was an issue
+
+[[Writing exercise]]

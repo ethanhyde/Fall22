@@ -227,3 +227,80 @@ Stack overflow
 Character strings
 - Array of type "char"
 - Terminated by null char
+
+# Week 4 Tuesday 10/18
+Tuesday 10/25 mega quiz
+Thursday 10/27 megaquiz feedback and midterm format discussion
+Tuesday 11/1 Midterm
+
+Enums
+- Make your own type
+	- Type is "list of key words"
+- Enums are useful for code clarity
+	- Always possible to do same thing with int
+- Basically a struct in C
+
+Structs
+- Simple data types
+	- Float, int, char, etc ...
+- Structs are complex data type
+- Mechanicism provided by C to define group of variables
+	- Variables must be grouped together
+- Can have structs within structs
+```C
+struct Origin
+{
+	//Stuff
+};
+
+struct Direction
+{
+	//Stuff
+};
+
+struct Ray
+{
+	struct Origin ori;
+	struct Direction dir;
+};
+```
+
+File IO: streams and file descriptors
+- Two ways to access files 
+- File descriptors
+	- Lower lever interface to files and devices
+	- Type: small ints 
+- Streams
+	- Higher lever interface to files and devices
+	- Type FILE *
+- Processs for reading or writing
+	- Open file
+		- Tell unix you intend to do file IO
+		- Function returns a file *
+			- Used to identifyu from this point
+		- Checks permissions are valid
+	- Write to file
+	- Close file
+
+Opening a file 
+```C
+FILE *handle = fopen(filename, mode);
+
+//Example
+FILE *h = fopen("/tmp/212", "wb");
+```
+
+```C
+int main(int argc, char *argv[])
+{
+	char *hello = "hello world: file edition\n";
+	FILE *f = fopen("330", "w");
+	fwrite(hello, sizeof(char), strlen(hello),f);
+	fclose(f);
+}
+
+//If we see contents of file from command line this is returned:
+cat 330
+hello world: file edition`
+```
+
