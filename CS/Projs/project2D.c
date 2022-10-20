@@ -25,6 +25,17 @@ MathOperation GetOperation(char *op)
 double StringToDouble(char *str)
 {
     /* Implement me! */
+
+	double number; //Holds the num from argument
+	for(int i = 0; i < *str; ++i)
+	{
+		number = *str;
+		if(i + 1 == '\0')
+		{
+			return number;
+		}
+	}
+	printf("%s\n", number);
 }
 int main(int argc, char *argv[])
 {
