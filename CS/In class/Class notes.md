@@ -304,3 +304,59 @@ cat 330
 hello world: file edition`
 ```
 
+# Week 4 Thursday 10/20
+File position indicator 
+```C
+fseek(FILE *stream, long offset, int whence);
+//Function sets the file position indicator for the stream pointed to by stream
+ftell(FILE *stream)
+//Helps figure out the size of the file
+```
+
+Printing to terminal, reading from terminal
+- In unix, printing to terminal and reading from is done with file I/O
+
+Standard streams
+- Preconnected input and output channels between computer program and environment
+- Three standard streams
+	- stdin (standard input)
+	- stdout (standard output)
+	- stderr (standard error)
+- printf() goes to stdout
+
+Buffering and printf
+- printf is buffered
+- printf puts string in buffer
+- other things happen
+- Buffer eventually is printed
+- Solutions
+	- fflush()
+	- fprintf(stdder)
+	- Always flushed
+
+Unix shell maipulation
+- ">" redirect output of program to file
+- Ex
+	- Is > output
+	- echo "this is a file " > output
+	- cat file1 file2 > file3
+
+Fork and pipe c funcitons
+- Fork 
+	- Duplicates current program into a separate instance
+		- Two running programs
+		- Only differentiated by return value of fork (which is original and which is new)
+- Pipe
+	- Mechanism for connecting file descriptors between two forked programs
+- Pipes in unix shells
+	- Represented with "|"
+	- Output of one program becomes input to another
+
+Useful unix commands
+- grep
+	- Keep lines that match pattern, discard other's that don't match
+- sed
+	- Replace pattern 1 with pattern 2
+- Wildcards
+	- **
+
