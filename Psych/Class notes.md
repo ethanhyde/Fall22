@@ -583,3 +583,158 @@ Pupil and imagery
 	- (imagine sunny sky, imagine dark room - pupil changed size)
 
 [[exam stuff]]
+
+# Week 4 Thursday 10/20
+### Modal model 1
+
+What is memory
+- Multiple defs
+- Like attention everyone knows what it is
+- Memory as representation
+	- Individual mems in head
+- Memory as process
+	- Building and retreiving memories as you need them
+- Memory as storehouse
+	- Memory is not a single thing, multiple storages of memory
+
+Memory as replesentation
+- Individual internal representations of what has been learned
+- What makes up a memory?
+	- Multidimentional attributes
+	- Visual, tactile, auditory, olfactory, semantic, temporal, emotional, etc
+	- Every memory has all of these components in it
+
+Memory as process
+- Memory is also the process that leads to remembering
+- Aquisition/learning/encoding of info
+- Storage and maintenance of info
+- Retrieval of info
+
+Melton (1963)
+- Encoding -> storage -> retreival
+
+Memory as storehouse
+- Memory is place where representations are stored
+- Not only in brain, but in conceptual terms
+- Where we "look" for specific mems
+
+Broadbent's model
+- One of first explicit models of memory
+- Influenced by information theory
+- Proposed three main structs
+- S-system
+	- Sensory info
+- P-system
+	- Consciousness, limited capacity
+- Secondary memory
+	- Everything else
+
+Important features
+- Dual-component view of memory
+- Limited capacity short term mem
+- Info rapidly list from limited capacity component
+	- Need to maintain info via rehersal
+- Unlimited capacity long term memory
+![[Pasted image 20221020141718.png]]
+
+Capacity limit/span
+- What is the capacity of short-term memory and how do we measure it?
+- Memory span: Number of items we can recite back perfectly without error 50% of the time
+
+Miller (1956) 7 +- 2
+- Memory span is typically around 7 +- 2 items
+- A magical number? - his suggestion
+- Cowan (2001) 4 +- 1
+- Because of capacity limit need a way to combine small bits of into into large bits (chunking)
+	- Take small bits of info and combine them into larger, more meaningful bits of info
+	- IBMFBICIAIRS
+
+Rate of info loss
+- How is info lost from short term memory?
+	- Most research suggests items are *displaced* from short term mem by incoming info
+	- FIFO property
+	- First thing in short term memory is kicked out and replaced
+	- Once box is full, something has to go?
+- How quickly is info lost?
+
+Brown-Peterson
+- Brown(1958), Peterson & Peterson(1959)
+- Recall constonant trigrams after a delay
+- Distracting task to prevent rehersal
+	- Given number, count backwards by 3s 
+- Variable delay: 3, 6, 9, ...
+- IVs: delay vs non delay, length of delay
+![[Pasted image 20221020142543.png]]
+
+Rehersal Maintenance
+- How do we prevent loss from short term mem?
+	- Covertly rehearse the info
+- What is the code for short-term memory?
+- Conrad 1964 and Wicklegren 1965 suggested the code was acoustic
+	- What are you rehearsing? The word? The meaning, sound? etc...
+- Inner speech to remember *sound* of the words
+
+Baddeley (1966)
+- 4 lists
+- Phonologically similar: sound alike
+	- Cap, map ... etc
+- Sematically similar: same meaning
+	- Big, huge, etc..
+- Control: unrelated words
+- If code is acoustic, then it should be *difficult* to rehearse words that sound alike
+
+Basic ideas about modal model
+- 2-3 main components of memory
+- Sensory stores
+- Limited capacity short-term mem
+- Info rapidly lost from limited capacity component (20 seconds)
+	- Need to maintain info via rehersal
+- Unlimited capacity long term mem
+- Called the *modal model* becasue people has the same basic ideas 
+
+Atkson and Shiffrin (1968)
+- Most influential dual-component model
+- Specific mathematical formulation
+- STM limited capacity store, short duration
+- Control processes operate on STM
+- LTM unlimited capacity, info lost due to interference or search failures
+
+![[Pasted image 20221020143715.png]]
+
+Structural vs processing components
+- Structural components
+	- Sensory stores, STM, LTM
+	- Don't change
+- Processing components
+	- Control processes that operate on STM
+	- Change depending on task requirements
+	- Maintenance (rehersal) vs retreival
+
+Controlled processing in STM
+- Control processes maintain info in STM
+- Rehersal is main one
+- The longer in STM, the more transfer to LTM
+
+Rundus (1971)
+- Test to see if rehersal predicts liklihood of later recall
+- S's given to free recall
+- S's told to rehearse outloud
+- Counted frequency with which each individual item had been rehearsed
+- More rehearsals should lead to better recall later
+
+STM
+- Limited capacity store
+	- 4-7 items
+- Short duration
+- New info bumps out older info
+- Need to rehearse items in STM to transfer them to LTM system
+
+LTM
+- Unlimited capacity
+- Durable
+- Includes all mems
+	- Knowledge, personal info, etc
+- Info never bumped out or lost
+- Info forgotted via interference or search failures
+- Info needs to be retrieved from LTM back into STM for report
+

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db65fb164c87bae0",
+        "id": "8e92a060ff0a18af",
         "type": "tabs",
         "children": [
           {
-            "id": "d753bb64dbc07837",
+            "id": "c0dec1085b1d7693",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/In class/Class notes.md",
+                "file": "Psych/Class notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f86a2244e0769a11",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/In class/Class notes.md",
+                "file": "Psych/Class notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/In class/Class notes.md",
+                "file": "Psych/Class notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/In class/Class notes.md"
+                "file": "Psych/Class notes.md"
               }
             }
           }
@@ -140,11 +139,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d753bb64dbc07837",
+  "active": "c0dec1085b1d7693",
   "lastOpenFiles": [
-    "Blues/In class/Class notes.md",
-    "CS/In class/Class notes.md",
+    "exam stuff.md",
     "Psych/Class notes.md",
+    "CS/In class/Class notes.md",
+    "Blues/In class/Class notes.md",
     "Blues/In class/Things for test.md",
     "Blues/Homework/Week 2 reading.md",
     "Blues/Homework/Week 1 Reading and videos.md",
