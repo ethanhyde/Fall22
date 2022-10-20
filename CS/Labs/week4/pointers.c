@@ -4,13 +4,13 @@
 int main()
 {
 	char x = 'A';
-	char y = &A;
+	char *y = &x;
 	
-	printf("%c", x);
-	free(y);
-	printf("%p", y);
+	printf("%c\n", x);
+	printf("%c\n", *y);
 
 	x = 'B';
+	printf("%c\n", *y);
 
 
 
