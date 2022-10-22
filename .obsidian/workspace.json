@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/In class/Class notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f86a2244e0769a11",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/In class/Class notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/In class/Class notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Psych/Class notes.md"
+                "file": "Blues/In class/Class notes.md"
               }
             }
           }
@@ -139,10 +140,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c0dec1085b1d7693",
+  "active": "f880e4e48f22312c",
   "lastOpenFiles": [
-    "exam stuff.md",
     "Psych/Class notes.md",
+    "exam stuff.md",
     "CS/In class/Class notes.md",
     "Blues/In class/Class notes.md",
     "Blues/In class/Things for test.md",

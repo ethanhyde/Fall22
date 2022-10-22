@@ -27,14 +27,20 @@ double StringToDouble(char *str)
     /* Implement me! */
 
 	double number; //Holds the num from argument
-	for(int i = 0; i < *str; ++i)
+    int len;    //Length of the string
+    while(str[len] != '\0')
+    {
+        len = len + 1;
+    }
+    printf("%d\n", len);
+	/*for(int i = 0; i < )
 	{
 		number = *str;
 		if(i + 1 == '\0')
 		{
-			return number;
-		}
-	}
+		*/	return number;
+	//	}
+	//}
 	printf("%s\n", number);
 }
 int main(int argc, char *argv[])
@@ -63,6 +69,7 @@ int main(int argc, char *argv[])
 			//Check this
     }
     printf("%d\n", (int) result);
+    printf("%c\n", "HELLO");
  
     return 0;
 }
