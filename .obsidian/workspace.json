@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blues/In class/Class notes.md",
+                "file": "CS/In class/Class notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blues/In class/Class notes.md",
+                "file": "CS/In class/Class notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blues/In class/Class notes.md",
+                "file": "CS/In class/Class notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blues/In class/Class notes.md"
+                "file": "CS/In class/Class notes.md"
               }
             }
           }
@@ -140,12 +140,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f880e4e48f22312c",
+  "active": "c0dec1085b1d7693",
   "lastOpenFiles": [
+    "Blues/In class/Class notes.md",
     "Psych/Class notes.md",
     "exam stuff.md",
     "CS/In class/Class notes.md",
-    "Blues/In class/Class notes.md",
     "Blues/In class/Things for test.md",
     "Blues/Homework/Week 2 reading.md",
     "Blues/Homework/Week 1 Reading and videos.md",

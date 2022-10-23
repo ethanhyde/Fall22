@@ -37,6 +37,7 @@ File editors
 - Sublime
 # Thursday 09/27 Week 1
 ## Conventions surrounding binary numbers
+&y0SK#wS
 - 01000001 is 65 in decimal
 - 65 represents ‘A’, ASCII value
 Terminology

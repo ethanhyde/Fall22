@@ -20,41 +20,103 @@ void IssueBadOperationError()
 }
 MathOperation GetOperation(char *op)
 {
-    /* Implement me! */
+	char opration; //Returned value
+	char operation = *op;
+	int operationSecured = 0;
+	
+	if(operation == '+')
+		{
+			return ADD;
+		}	
+	else if(operation == '-')
+		{
+			return SUBTRACT;
+		}	
+	else if(operation == '/')
+		{
+			return DIV;
+		}
+	else if(operation == 'x')
+		{
+			return MULT;
+		}
+	else return UNSUPPORTED;
+	
+
 }
+double CalculateFraction(char* str) {
+	for(int j = 0; str[j] != '\0'; ++j)
+		{
+
+			if(str[j] < 48 || str[j] > 57)
+			{	
+				IssueBadNumberError();
+			}
+			
+		}
+	double remainder = 0.0;
+	double decimalValue = 1.0;
+	for(int i = 0; str[i] != '\0'; i++) {
+		decimalValue /= 10;
+		remainder += decimalValue * (str[i] - '0');
+	}
+		
+	return remainder;	
+}
+
 double StringToDouble(char *str)
 {
-    /* Implement me! */
-
-	double number; //Holds the num from argument
-    int len;    //Length of the string
-    while(str[len] != '\0')
-    {
-        len = len + 1;
-    }
-    printf("%d\n", len);
-	/*for(int i = 0; i < )
-	{
-		number = *str;
-		if(i + 1 == '\0')
+	double remainder = 0.0;
+	double sum = 0.0; //Holds the num from argument
+	double isNegative = 1; //Make negative if negative	
+	for(int i = 0; str[i] != '\0'; ++i)
 		{
-		*/	return number;
-	//	}
-	//}
-	printf("%s\n", number);
+			
+			if(str[0] == '-')
+			{
+				isNegative = -1;
+				++str;
+			}
+
+			if(str[i] == '.')
+			{
+				remainder = CalculateFraction(str + 1 + i);
+				break;
+			}
+
+			if(str[i] < 48 || str[i] > 57)
+			{
+				IssueBadNumberError();
+			}
+			if (i > 0)
+				sum = sum * 10;
+			sum += str[i] - '0';
+		}
+		
+		
+		sum += remainder;
+		sum *= isNegative;
+		return sum;
 }
 int main(int argc, char *argv[])
 {
     double v = StringToDouble(argv[1]);
     MathOperation op = GetOperation(argv[2]);
+	for(int i = 0; argv[2][i] != '\0'; ++i)
+	{
+		if(i > 0)
+		{
+				IssueBadOperationError();
+		}
+	}
+
     double v2 = StringToDouble(argv[3]);
-    double result = 0.;
+    double result = 0.0;
     switch (op)
     {
        case ADD:
          result = v+v2;
          break;
-       /* Implement more cases... */
 		case MULT:
 		  result = v*v2;
 		  break;
@@ -66,10 +128,8 @@ int main(int argc, char *argv[])
 			break;
 		case UNSUPPORTED:
 			IssueBadOperationError();
-			//Check this
     }
     printf("%d\n", (int) result);
-    printf("%c\n", "HELLO");
  
     return 0;
 }
