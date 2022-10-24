@@ -278,8 +278,8 @@ File IO: streams and file descriptors
 	- Open file
 		- Tell unix you intend to do file IO
 		- Function returns a file *
-			- Used to identifyu from this point
-		- Checks permissions are valid
+			- Used to identify from this point
+		- Checks permissio**Syntax:****Syntax:**ns are valid
 	- Write to file
 	- Close file
 

@@ -304,5 +304,85 @@ Harlem Hamfats
 - Mix of musicians from Mississippi, New Oreleans, Chicago
 	- Guitar and vocals by "Kansas" Joe Mcoy
 - Hamfats, "Oh Red (1936)"
-	- C0vered by Count Basie Blind Willie McTell, The Ink Spots
+	- Covered by Count Basie Blind Willie McTell, The Ink Spots
 	- Guitar, piano, banjo, trumpet, clarinet, bass, drums
+
+# Week 5 Monday 10/24
+
+The importance of the blues for jazz (and vice verse)
+ - Both styles exhibit distinctly African American approaches to musicking
+	 - vocal quality in instrumental phrasing
+	 - Polyrhythm
+	 - Importance of community/participation
+	 - Circular structs (repeating forms)
+	 - Jones/Baraka "The changing same"
+- Improvisation infuses performances in both styles
+- We make more of the distinction between blues and jazz now than was done in the 1920s
+	- Blues was a type of song
+	- Jazz was an approach to playing
+- Word "blues" in jazz
+	- 12 bar song form
+	- Name for compositions (most often using that form, but sometimes not)
+	- May have vocals, or be instrumental only
+
+Listening skills
+- Rhythm, pitch and timbre, phrasing, dynamics, form/structure, spontaneity
+
+Louis Armstrong (1901-1971)
+- Armstrong's major innovations
+	- Jazz becomes a music of individual expressin within a collective ensemble
+	- Defines jazz melodic, rhetorical, and rhythmic vocab
+- "Hot 5" and "Hot 7" recordings
+- 1925-1928
+- Made in Chicago, after Armstrong's move from new Orleans
+- Roughly 80 tracks recorded
+- Took off slowly, then started to become more well known
+
+Duke Ellington
+- Tensions in Ellington's career and output
+	- Composer/collaborator
+	- Pianist/Bandleader
+	- Art music/Jazz
+- Uses 12 bar blues frm as structural element in larger compositions
+- Individual instrumentalists use blues approaches: scoops and smears exhibit a "vocal" quality, like pitch bending
+- 16 people "big band"
+
+Form/Structure - zoom out
+- Two most common forms in jazz
+	- 32 bar AABA
+	- 12 bar blues AAB
+
+William "Count" Basie (1904 - 1984)
+- More about groove and improvisation
+- Born in Red Bank, NJ
+- Met Walter Page's blue devils on tour in Tulsa Ok
+- When Blue Devils and Bennie Moten's orchestra folded, most members joined Basie
+- Skills as leader: attracting talent, and keeping band together
+- Basie band approaches 
+	- Innovative "division of labor" among rhythm section instruments
+	- Riff-based compositions (a "blowing " band)
+
+Basie rhythm section (late 1930s)
+- GuitarL chords on all 4 beats
+- Drums: lighter bass drum, hi hat pulse
+- Bass: muscular, waking (notes on all 4 beats)
+- Piano: light commentary
+- "Good morning blues(1937)"
+
+Billie Holiday (1959-1959)
+- Early childhood full of insecurity, abuse, deprivation
+- At 14, she begins singing while working in an after-hours club popular with jazz musicians
+- At 18, she made her first recording, with Bennie Goodman's orchestra
+- Long term musical partnership with Lester Young, started 1/1937
+- Member of Count Basie's band 1937-38
+- "Strange Fruit" became her signature song, starting 1939
+- Farah Jasmine Griffin
+	- Holiday's musical genius has been overshadowed by popular portrayals of her (in firl, public discourse, and writing)
+- Holliday was addicted, victim
+- Absorbs numberous blues influences
+	- Bessie Smith, Louis armstrong, Ethel Waters
+	- Still has her own distinctive sound
+- Nited fir her languid, behing the beat phrasing
+	- Imparts sense of unhurriedness, ease
+	- Plays with and against ongoing pulse in instramental accompaniment
+- "Fine and Mellow" (1957)
