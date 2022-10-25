@@ -361,3 +361,41 @@ Useful unix commands
 - Wildcards
 	- **
 
+# Tuesday Week 5 10/25
+### Preprocessor, Function pointers
+
+Preprocessor
+- Takes input program
+- Produces another program (then is compiled)
+C has separate language for preprocessing
+- Different syntax than C
+
+Include
+- Compiler cna only compute one file at a time
+- takes anoter file and includes in current file
+
+Unions
+- Special data type
+- Store many dif memory types in one mem location
+```C
+//Same bytes allocated for each variable
+typedef union
+{
+	float x;
+	int y;
+	char z[4];
+}cis330_union
+```
+- Useful because you can save on size
+
+File I/O
+DRAM vs NV-RAM
+- DRAM: Dynamic random access memory
+	- Stores data
+	- Each bit in separate capacitor within integrated circuit
+	- Loses charge over time and must be refreshed
+	- Volitile mem
+- NVRAM: Non volitile Random Access Mem
+	- Stores data
+	- Info unaffected by power cycle
+
