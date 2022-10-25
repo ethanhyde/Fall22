@@ -739,3 +739,140 @@ LTM
 - Info needs to be retrieved from LTM back into STM for report
 
 # Tuesday Week 5 10/25
+### Modal model part 2
+
+Perdictions
+- Because of basic struct of modal model, makea specific predictions in terms of how info will be stored and reviewed
+- Most predictions relied on use of free recall serial position functions
+
+Free Recall
+- Series of stim
+- Written or verbal recall
+- Scored as correct if correct item is recalled regardless of positoin
+- Unlike serial recall, correct only if in correct position
+	- Serial recall is recalling things in exact order they were presented in
+- Can start at last word, first word, anywhere
+![[Pasted image 20221025140709.png]]
+
+Modal model account
+- Serial position curve result of recalling items from 2 stores
+- First recalled in STM, then LTM
+	- Try and recall any info recalled in long term
+- Need two diff storange systems to account for results
+
+Modal model for privacy
+- First items rehearse a lot
+- Eventually is bumped out, short term mem overloaded
+- Most rehearsals result in better transfers to long term memory
+- Rundus(1971)
+	- Words rehearsed the most, remembered the best
+- graph looks like  a U
+
+Modal model of recency
+- Recency effect due to fact that items presented at end are still in STM at time of recall
+- 40 items, everyone remembers last item perfectly
+- Leads to nearly perfect recall of these items
+- Modal predicts that last items shows should be first recalled
+
+Abolishing recency
+- According to modal model, if we kick items out, recency should go away
+ - What happens if we emptu STM before allowed to recall?
+	- Sould abolish recency effect
+	- Glanzer and Cunitz (1966)
+	- Immediate free recall
+		- Recall items immediately after presentation
+	- Delayed free recall
+		- Recall items after delay filled with distracting activity
+
+Immediate vs delayed free recall
+- Immediate recall uses STM + LTM
+- Delayed recall uses only LTM
+- Recency effect due to STM
+
+Final free recall
+- Last items presented still in STM which leads to recency
+- Items should get fewer rehearsals leading to less transfer to LTM than primary items
+- What happens if we test recall much later?
+	- Craik (1970)
+		- Give words, instruct participants to read newspaper for 5 mins
+		- ^^ called "final free recall"
+		- Final recall of the experiment
+
+Modal model and free recall
+- Modal model successfully accounted for various apects of free recall
+	- Accounts for primacy and recency
+	- Absense of recency in delayed free recall
+	- Negative recency
+- Suggested dual-store model gives best account of the data
+- Not without challenges
+
+Problems w/ modal model
+- Recency effect
+- Is recency effect due to unloading items from STM?
+
+Bjork and Whitten methods
+- Free recall but have participants perform secondary task before and after each word
+- [[Continuous distractor task]]
+
+Problems w/ problems
+- Are short and LTM recency effects the same?
+- Some models suggest they are based on separate mechs
+	- Some support
+	- Look the same, but actually diff things
+- LTM recency effects are almost always smaller than ST recency effects
+
+Neuropsychological evidence
+- Individuals w/ specific neuro conditions provide evidence for a distinction between STM and LTM
+- Neuroimaging work corroborates thist of the data
+ Not without challenges
+
+t of the data
+ Not without challenges
+
+Brain areas important for memory
+- Prefromtal coretex
+	- Important for short term mem
+- Medial temporal lobes
+	- Important for LTM
+	- Damage hyppocampus results in amnesia
+
+Amnesia
+- Hallmarks
+	- Impairments are multimodal
+	- Immediate mem is intact
+	- Impairment occurs against backgrount of intact perceptual and intellectual functioning
+- Types
+	- Anterograde 
+		- Inability to learn new info following brain trauma
+	- Retrograde
+		- Inability to remember info learned prior to brain trauma
+
+Spared immediate mem
+- Carlesimo (1996)
+	- Found that amnesics and controls didn't deffer in recency in IFR
+	- Do differ in recency in CDFR
+
+Patient HM
+- Had severe epilepsy
+- Bilateral temporal lobectomy in 1953 (age 27)
+- Couldn't learn new things
+- Could remember some things from remote past (prior to age 16)
+- Could remember skills and facts
+
+What was wrong with HM
+- Hippocampus missing
+- Surrounding cortex (including EC) gone
+- Amygdla gone
+
+HM had profound anterograde amnesia
+- Performed very poorly on lab memory tasks
+- Had no recollection of anything after 1953
+- Did not know words that entered the lexicon after injury
+
+What's ok with HM?
+- Normal perception
+- Normal speech, language perception
+- Above average intelligence
+- Immediate mem
+	- Normal digit span
+	- Can carry on conversation

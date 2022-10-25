@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27c770006a28b920",
+        "id": "78292647d0b5c2c3",
         "type": "tabs",
         "children": [
           {
-            "id": "a8c691c1ffe9ffdd",
+            "id": "bde52838b9c8b630",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,16 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a8c691c1ffe9ffdd",
+  "active": "bde52838b9c8b630",
   "lastOpenFiles": [
-    "CS/In class/Class notes.md",
-    "Blues/In class/Class notes.md",
-    "Blues/Homework/Week 4 reading.md",
     "Psych/Class notes.md",
-    "exam stuff.md",
-    "Blues/In class/Things for test.md",
-    "Blues/Homework/Week 2 reading.md",
-    "Blues/Homework/Week 1 Reading and videos.md",
-    "CS/Class notes.md"
+    "Continuous distractor task.md",
+    "Writing exercise.md",
+    "Psych/exam stuff.md",
+    "Psych/Pasted image 20221020143715.png",
+    "Psych/review of topics.md",
+    "Psych/Pasted image 20221020141718.png",
+    "Psych/Pasted image 20221020142543.png",
+    "CS/In class/Class notes.md",
+    "Blues/In class/Class notes.md"
   ]
 }
