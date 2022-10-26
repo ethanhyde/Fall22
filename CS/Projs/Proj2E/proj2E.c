@@ -5,6 +5,8 @@
 int main(int argc, char *argv [])
 {
 	int counter = 0;
+	char firstChar; //Holds first character of argv
+
 	//Opens file and ensures it exists
 	FILE *h = fopen(argv[1], "r");
 	if(!fopen)
@@ -29,21 +31,27 @@ int main(int argc, char *argv [])
 	
 	//Dynamically allocates argc count
 	int *count = (int *) malloc(sizeof (int) * argc);
-	int result = 1;
-
+	int wordSize = 0; //Strlen of the word from cmd line
+	int result;      //Returned value of strcmp
 	//Searches for matches between argv and contents
 	for(int i = 2; i < argc; ++i)
+	{					
+		firstChar = argv[i][0];
+		wordSize = strlen(argv[i]);
+		
+		printf("the first char is %c\n", firstChar);
+		
+		for(int j = 0; j < max; ++j)
 		{
-			for(int z = 0; z != '\0'; ++z)
-			{
-				result = strcmp(argv[i], contents[z]);
-				if(result)
-				{
-					printf("MATCH\n");
-				}
+			result = strcmp(argv[i][0], contents[j], wordSize);	
 
+			if(result == 0);
+			{
+				printf("MATCH\n");
 			}
 		}
+	}
+
 
 
 	free(contents);
