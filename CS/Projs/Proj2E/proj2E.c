@@ -1,32 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-
-int SearchForWord(char *txt, int remaining, char *searchWord)
+int SearchForWord(char word)
 {
+	int counter = 0; //Value to be returned
+
+	//Opens file and ensures it exists
 	FILE *h = fopen("file.txt", "r");
 	if(!fopen)
 		{
 			printf("File does not exist\n");
 		}
-	char * contents = malloc(sizeof(int)* h);
+	
+	
 
+	return count; 
 }	
 
 int main(int argc, char argv [])
 {
-
-	//Counts the number of argc, dynamically allocated
-	int *argumentNum = malloc(sizeof(int) * argc);
-	int num;	
+	int count;
 	
-	for(int count = 1; count < argc; ++count)
+	for(int i = 0; i < argc; ++i)
 		{
-			argumentNum[count] = count;
-			num = count;
-		}	
-
-	SearchForWord(*argumentNum, num, *word);
+			//Sends each argc string into the function
+			//Returns the count of how many times it occurred in file
+			count = SearchForWord(argv[i]);
+		}
+	
 
 
 return 0;
