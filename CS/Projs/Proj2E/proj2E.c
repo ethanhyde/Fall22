@@ -6,6 +6,10 @@ int main(int argc, char *argv [])
 {
 	int counter = 0;
 	char firstChar; //Holds first character of argv
+	int wordSize = 0; //Strlen of the word from cmd line
+	int result;      //Returned value of strcmp
+	int move;        //For comparing file
+	int occurs = 0;   //Returned from function
 
 	//Opens file and ensures it exists
 	FILE *h = fopen(argv[1], "r");
@@ -31,8 +35,7 @@ int main(int argc, char *argv [])
 	
 	//Dynamically allocates argc count
 	int *count = (int *) malloc(sizeof (int) * argc);
-	int wordSize = 0; //Strlen of the word from cmd line
-	int result;      //Returned value of strcmp
+
 	//Searches for matches between argv and contents
 	for(int i = 2; i < argc; ++i)
 	{					
@@ -41,14 +44,14 @@ int main(int argc, char *argv [])
 		
 		printf("the first char is %c\n", firstChar);
 		
-		for(int j = 0; j < max; ++j)
+		for(int j = 0; j < wordSize; ++j)
 		{
-			result = strcmp(argv[i][0], contents[j], wordSize);	
-
-			if(result == 0);
+			if(firstChar == contents[j])
 			{
+				result = strcmp(
 				printf("MATCH\n");
-			}
+				break;
+			}	
 		}
 	}
 
@@ -57,3 +60,16 @@ int main(int argc, char *argv [])
 	free(contents);
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
