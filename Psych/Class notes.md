@@ -826,7 +826,7 @@ Neuropsychological evidence
 - Neuroimaging work corroborates thist of the data
  Not without challenges
 
-t of the data
+at of the data
  Not without challenges
 
 Brain areas important for memory
@@ -876,3 +876,123 @@ What's ok with HM?
 - Immediate mem
 	- Normal digit span
 	- Can carry on conversation
+
+# Week 5 Thursday 10/27
+### Working memory
+
+Working mem
+- STM in modal model didn't explain complex behaviors too well
+	- Too simplistic
+- What is STM for?
+- Need for things like learning, reasoning, reading etc
+- Need for more dynamic STM
+	- Only rehearded words over and over
+- Typical def
+	- Working mem may be defined as system for temp maitenance and manipulation of info, necessary for performance of such complex cognitive activities as comprehenstion, learning, and reasoning(1992)
+
+Baddeley and Hitch (1974)
+- 2 "Storage systems" - places to hold info for diff types
+	- One for phonological info and one for spatial info
+- "Central executive" to determine what info goes where
+- "Phonological loop" has received most attention
+
+Dual task stidies
+- SS perform primary task while simultaneously performing secondary task which is presumed to take STM capacity
+- 7 words
+- Overt rehearsal of secondary task ensures subjects aren't switching between tasks
+
+Baddeley and Hitch (1974)
+- Ss remember and overtly rehearse sequences of 0-8 digits
+- At same time subjects perform rimple reasoning task
+- Dual task results imply system responsible for rehersal can't be same as system rsponsible for learning/reasoning
+- Baddeley and Hitch - performance on rehearsal based tasks involved a speech based system
+- Phonological loop - used to recycle info
+
+Phonological loop
+- (AKA articulatory loop) comprises two components
+- Phonological store
+	- Holds small amount of speech based info
+- Articulatory control process
+	- Based on inner speech
+
+Phonological similarity effect
+- Words sound the same, hard to remember
+- Look at Baddely from last week notes
+- Recall of chars or words impaired if phonologycally similar
+- PVCGE harder to recall than XRFYZ
+- Words w/ visual and auditory presentation
+	- ACP translates into phonological
+- Effect can be explained because items in phonological store based on phonological codes
+
+Irrelevant speech effect
+- Hard to remember list of words when someone is speaking in the background
+- Colle and Welsh (1976) 
+	- Immediate recall of digits impaired if accompanied by sound of someone reading German
+	- Explanation - unnattended phono material can gain access to phono store
+- Salame and Baddeley (1987) 
+	- Hurts more when trying to remember numbers when someone is saying words that rhyme
+	- "One two" while someone saying "tun woo"
+
+Word length effect
+- Easier to remember list of short words vs list of long words
+- Finite amount if "tape" on the loop
+- Long words use up more tape
+- Fir fewer long words into loop than short words
+- #lookfordiagram
+
+Phonologial loop
+- Acounts for phono similarity effect
+	- ACP rehearses items, phono somilar items interfeer with each other
+- Account for irrelevant speech effect
+	- Gets suck in the loop
+- Accounts for word length effect
+	- Can only rehearse items so fast
+
+What is phono loop for?
+- Learning to read
+	- Kids w/ impaired reading ability have reduced memory spans
+- Language comprehension
+	- STM patients such as TB have difficulty in comprehending verpose or comples sentances
+- Vocab aquisition
+	- Strong correlation between non-word repition and vocab size
+
+Visuo-spatial sketchpad
+- Stores and manipulates visual-spatial info
+- Needed when info can't be recorded into phono representaiton
+- Mental rotation of objects
+- Other visual0spatial info interferes
+	- Verbal info does not
+
+Brooks (1968)
+- Verbal task: identify each word in sentance as noun or not
+	- A bird in the hand is not in the bush
+- Spatial task
+	- Imagine letter and starting at bottom left, indicate whether corner is at extreme bottom or top
+
+Central exacutive
+- Model suggets CE coordinates actifity of two storage systems
+- Other potential roles for CE include:
+	- Coordinating retrieval strats, selective attn, temp activation of LTM, supression of habitual responses
+- Thought to be associated w/ frontal lobes
+
+Episodic Buffer
+- "limitec capacity temp storage sys capable of integrating info from variety of sources"
+- Controlled by CE
+- Feeds info into and retrieves info from LTS
+- Uses common "multidimentional" code
+
+Functions of PFC
+- Prefrontal cortex seems to be important in maintaining task relevant info over short term
+- May be particularly important in maintaining info in presence of potent distraction and interference
+- Delayed response task
+
+Functions of prefrontal cortex
+- Monkeys trained over 100s of trials to perform delayed response task
+- Moneys lesioned in PFC
+- Monkeys w/ PDC lesions show decreased performance
+- Suggest that PFC is involved in working mem
+
+Delayed auditory sample task
+- Two beeps
+- Subjects compare if they are same or different after a longer delay after each trial
+

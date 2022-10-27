@@ -38,33 +38,51 @@ int main(int argc, char *argv [])
 
 	//Searches for matches between argv and contents
 	for(int i = 2; i < argc; ++i)
-	{					
-		firstChar = argv[i][0];
+	{		
+		result = 1;
+	//	firstChar = argv[i][0];
 		wordSize = strlen(argv[i]);
-		
+			
+		for(int z = 0; z < strlen(contents); ++z)
+		{
+			
+			if(contents[z] == ' ' || contents[z] == ','
+				|| contents[z] == '.' || contents[z] == '\n')
+			{
+				result = strncmp(argv[i], contents, wordSize);
+			}
+		}
+	}
+
+
+
+
+
+
+
+	/*	
 		printf("the first char is %c\n", firstChar);
 		
 		for(int j = 0; j < wordSize; ++j)
 		{
 			if(firstChar == contents[j])
 			{
-				result = strcmp(
-				printf("MATCH\n");
+				result = strncmp(argv[i], contents, wordSize);
+				if(result == 0)
+				{
+					printf("MATCH\n");
+				}		
+			//	printf("MATCH\n");
 				break;
 			}	
 		}
 	}
 
-
+*/
 
 	free(contents);
 	return 0;
 }
-
-
-
-
-
 
 
 
