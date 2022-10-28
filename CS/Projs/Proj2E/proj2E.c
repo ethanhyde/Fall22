@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char *argv [])
+int main(int argc, char **argv)
 {
 	int counter = 0;
 	char firstChar; //Holds first character of argv
@@ -25,6 +25,7 @@ int main(int argc, char *argv [])
 	char *contents = (char *) malloc(sizeof(char) * max);
 	rewind(h);
 	fread(contents, sizeof (char), max, h);
+	contents[max - 1] = '\0';
 	fclose(h);
 	
 	//For testing, prints contents of file
@@ -36,20 +37,33 @@ int main(int argc, char *argv [])
 	//Dynamically allocates argc count
 	int *count = (int *) malloc(sizeof (int) * argc);
 
+	for(int z = 0; z < max; ++z)
+	{
+		if(contents[z] == ' ' || contents[z] == ',' ||
+		contents[z] == '.' ||contents[z] == '\n')
+		{
+			contents[z] == '\0';
+		}
+	}
+	
 	//Searches for matches between argv and contents
 	for(int i = 2; i < argc; ++i)
 	{		
-		result = 1;
-	//	firstChar = argv[i][0];
-		wordSize = strlen(argv[i]);
-			
-		for(int z = 0; z < strlen(contents); ++z)
+		count[i] = 0;
+
+		//Search for input word
+		for(int k = 0; k < max; ++k)
 		{
-			
-			if(contents[z] == ' ' || contents[z] == ','
-				|| contents[z] == '.' || contents[z] == '\n')
+			if(contents[k] == '\0')
 			{
-				result = strncmp(argv[i], contents, wordSize);
+				result = strncmp(argv[i], &(contents[k]), wordSize);
+				
+				if(result == 0)
+				{
+					count[i] += 1;
+					printf("there are %d matches for %s\n", count[i], argv[i]);
+					break;
+				}
 			}
 		}
 	}
@@ -60,22 +74,18 @@ int main(int argc, char *argv [])
 
 
 
-	/*	
-		printf("the first char is %c\n", firstChar);
-		
-		for(int j = 0; j < wordSize; ++j)
-		{
-			if(firstChar == contents[j])
+
+
+
+/*
+			if(contents[k] == argv[i][0])
 			{
-				result = strncmp(argv[i], contents, wordSize);
-				if(result == 0)
-				{
-					printf("MATCH\n");
-				}		
-			//	printf("MATCH\n");
-				break;
-			}	
+				count[i] += 1;
+			}
+
+			printf("counted %d\n", count[i]);
 		}
+
 	}
 
 */
