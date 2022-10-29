@@ -13,9 +13,9 @@ int main(int argc, char **argv)
 
 	//Opens file and ensures it exists
 	FILE *h = fopen(argv[1], "r");
-	if(!fopen)
+	if(h == NULL)
 		{
-			printf("File does not exist\n");
+			printf("\"%s\" is not a valid file.\n", argv[1]);
 			return 1;
 		}
 	
@@ -28,12 +28,6 @@ int main(int argc, char **argv)
 	contents[max - 1] = '\0';
 	fclose(h);
 	
-	//For testing, prints contents of file
-	for (int i = 0; i < max; ++i)
-	{
-		printf("%c", contents[i]);
-	}
-	
 	//Dynamically allocates argc count
 	int *count = (int *) malloc(sizeof (int) * argc);
 
@@ -42,31 +36,35 @@ int main(int argc, char **argv)
 		if(contents[z] == ' ' || contents[z] == ',' ||
 		contents[z] == '.' ||contents[z] == '\n')
 		{
-			contents[z] == '\0';
+			contents[z] = '\0';
 		}
 	}
+	
 	//Searches for matches between argv and contents
 	for(int i = 2; i < argc; ++i)
 	{		
 		count[i] = 0;
-		result = 1;
 		wordSize = strlen(argv[i]);
+		
+		int k_previous = 0;
+		
 		//Search for input word
-		for(int k = 0; k < max - wordSize; ++k)
+		for(int k = 0; k < max; ++k)
 		{
 			if(contents[k] == '\0')
-			{
-				result = strncmp(argv[i], &(contents[k]), wordSize);
+			{	
+				result = strcmp(argv[i], &(contents[k_previous]));
 				if(result == 0)
 				{
 					count[i] += 1;
-					printf("there are %d matches for %s\n", count[i], argv[i]);
-					//break;
 				}
+				k_previous = k + 1; 
 			}
 		}
+		printf("The word \"%s\" occurs %d times.\n", argv[i], count[i]);
 	}
 
-
+	free(contents);
 	return 0;
 }
+
