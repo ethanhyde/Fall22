@@ -1,0 +1,5 @@
+- & is the address of
+	- Reference
+	- & can only be applied to variables or array elements, not constants
+	- ![[Pasted image 20221031114321.png]]
+	- 
