@@ -386,3 +386,102 @@ Billie Holiday (1959-1959)
 	- Imparts sense of unhurriedness, ease
 	- Plays with and against ongoing pulse in instramental accompaniment
 - "Fine and Mellow" (1957)
+# Week 5 Wednesday 10/27
+# And Week 6 Monday 10/31
+
+Blues or jazz?
+- Line between genres blueery
+- Swing bands played blues, vocalists in jazz groups
+- Swing groups produced nearly all biggest blues hits in 1930s
+- Important blues singers
+	- Jimmy Rushing
+	- Billie Holiday 
+	- Big Joe Turner
+		- Worked as band vocalists
+
+Swing music, big band format (1930s-now)
+- Band of 12-20 members
+	- Rhythm section, trumpets, trombones, saxophones
+- 1939-45 big bands conmstituted substantial portion of American pop music
+	- Hundreds of bands around country
+	- Touring acts played at dances
+	- Radio broadcasts
+- Decline of the format
+	- WW2, as result of war rationing, increased costs of touring, labor shortages
+		- Big bands lost mementum, gave way to smaller groups
+	- Rock and roll rise in the 50s
+	- Beatles in 1964
+
+Woody Herman (1913-1987)
+- Clarinetist, sax, big band leader
+- "Band that playes the Blues 1936-43"
+
+Woody Herman "Blues in the night (1941)"
+- #1 billboard 1942
+
+"Count" Basie
+- Basie band approaches
+	- Innovative "division of labor" among rhythm section and instruments
+	- Riff-based compositions (blowing band)
+	- "One o'clock jump"
+
+Jimmy Rishing (1901-1972)
+- Vocalist with Count Basie's band 1935-48
+	- Been fine pop singer but bacame associated with 12 bar hits like "Goint to Chicago"
+		- Only allowed himself to sing these
+
+Dinah Washington (1924-1963)
+- Sand pop his in 12 bar blues form (AAB), with swing musicians
+	- "Evil gal blues" 1943
+
+Blues or Jazz?
+- 1944 Chicago defender writes that blues gained pop in Saouth and in Cali, not just among black audiences because of bands like Basie's and Louis Jordan's
+
+Louis Jordan (1908 - 1975)
+- Jump Blues: essentially stripped down version of Basie's style
+	- Driving, danceable rhythms
+	- Shouted vocals 
+	- Blues forms
+- Music is "for the people" rather than the musicians themselves
+- From arkansas, son of musician in Rabbit Foot Minstrels
+- Formed hard-swinging band "The Tympany of five" in 1938 in North
+- Establishes sax as integral part of blues ensemble
+- Had pair of crossover hits during ww2 and most popular black entertainer in US for several years
+	- White audience crossover
+- "Caldonia" (1945)
+	- Tops Billboard pop chart and is fixture of Race chart for 6 months
+	- Woody Herman version goes #1
+
+Lester Young
+(1909 - 1956)
+- Born in Mississippi to musical fam with New Oreleans roots
+- Member of Count Basie's orchestra 1937-40
+- Recorded extensively with Billie Holliday
+	- Strong musical bong
+- Musical qualities
+	- Light tone with little vibrato
+	- Lyrical/melodic approach to improv
+	- Sense of ease and relaxation
+
+Bebop and identity
+- Musicians willing outsiders
+	- "weird or deep"
+	- Cult of protection as well as rebellion
+	- Hip language for isolation
+	- Heroin use - group within a group
+- Cool attitude: Imperturbable in face of daily horrors
+
+Charlie "Bird" Parker (1920-1955)
+- Once in a century innovator 
+- Playing combined emotional immendiacy, technical virtuosiy, extreme innovation
+- Change jazz forever
+- Born in Kansas City
+- 15, marries, quits school, becomes full time musician and starts heroin
+- Worked with Jay McShann, Earl Hines, Billy Eckstein
+- Begins making definitive bebop records in 1945 with Dizzy Gil in NYC
+- Superior instrumental technique(idea becomes sound)
+- Melodic figures recycled
+- Mastery of blues language
+	- Vocal quality in playing
+	- Scoops, smears, blends
+- Died of advanced cirrhosis of liver and heart attack
