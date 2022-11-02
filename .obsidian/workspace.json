@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,11 +137,10 @@
     "width": 100,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "bde52838b9c8b630",
   "lastOpenFiles": [
+    "CS/In class/Class notes.md",
+    "CS/Midterm noites.md",
     "Psych/Class notes.md",
     "Continuous distractor task.md",
     "Writing exercise.md",
@@ -150,8 +148,6 @@
     "Psych/Pasted image 20221020143715.png",
     "Psych/review of topics.md",
     "Psych/Pasted image 20221020141718.png",
-    "Psych/Pasted image 20221020142543.png",
-    "CS/In class/Class notes.md",
-    "Blues/In class/Class notes.md"
+    "Psych/Pasted image 20221020142543.png"
   ]
 }

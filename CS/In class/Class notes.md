@@ -398,4 +398,3 @@ DRAM vs NV-RAM
 - NVRAM: Non volitile Random Access Mem
 	- Stores data
 	- Info unaffected by power cycle
-

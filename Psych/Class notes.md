@@ -996,3 +996,141 @@ Delayed auditory sample task
 - Two beeps
 - Subjects compare if they are same or different after a longer delay after each trial
 
+# Week 5 Tuesday 11/1
+### Memory as processes
+
+#### Encoding
+
+Melton 1963
+- Encoding -> storage -> retreival
+
+What is encoded?
+- What is the info that gets into the system?
+- Attributes/features
+- Encoding reps the proc. by which the attributes of mem are established
+- Binding together of diff attributes into representation
+	- "Episode"
+
+Auto and controlled encoding
+- You remember things you pay attention to
+- Automatically encode great deal of info
+- You can also focus attention on a subset of info for better encoding (controlled)
+	- Studying
+	- Focus attention and intend to get info into mem
+
+Rehearsel
+- Easiest way to intentionally get info into system is rehearsal
+- **Maintenance rehearsal**
+	- Simply repeating items over and over again
+		- Phonological loop
+
+Levels of processing
+- Problems w/ modal model lead to development of Levels of processing approach (Craik and Lockhart 1972)
+- Mem depends on how you process and learn info
+- Deeper the processing, better the retention
+
+LOP framework
+- Types of processing
+	- Orthographic
+		- Shallow level of processing, poor retention
+		- Visual
+	- Phonological
+		- Medium level of processing, medium retention
+		- Sound
+	- Semantic
+		- Deep level of processing, good retention
+		- Understanding the meaning
+
+Doubts about depth
+- Does samantic processing always lead to best retention?
+- Sometimes rhyming tasks lead to excellent retention
+- Retrieval
+	- Need to get the info back out again too
+
+Distinctiveness
+- Hypothesis
+	- Mem is determined in pary by how well the info encoded specifies event being reconstructed
+- More distinctive items are, better they are remembered
+- Can be things like color words are presented in, gender of speaker
+
+Von restorff effect
+- The finding that if one item in list differs from others, better recalled
+- Item is especially distinct and stands out at recall
+
+Organization
+- Process of grouping discrete, individual items into larger units based on specific relationships among items
+- Look for similarities among items
+- Chunking
+- Allows you to reduce number of items that have been recalled
+
+Elaboration
+- Linking a stim to other info at time of encoding
+	- Link presented info with preexisting knowledge
+- Basica of education
+- Generating your own examples for a given topic
+
+Self referent encoding
+- Making the paterial personally relevent
+	- Better memory
+- Rogers, Kuiper and Kirker (1977)
+- Orienting tasks (structural, phonemic, semantic) on list of adjectives
+- Also personal relevance
+	- Does this word describe you?
+
+Spaciong effects
+- Spacing of learning is important
+- Everything else being equal
+	- Distributed encoding leads to better retention than massed encoding
+
+Testing effects
+- Taking test increases long term mem more than simply studying
+
+#### Retrieval
+
+What is retrieved?
+- Encoding represents process by which attributes of mem are established
+- Binding together of diff attributes
+
+Transfer appropriate processing
+- Whatever processing was done at encoding, it must transfer to retreival
+
+Context as a clue
+- Distinction between content and context
+- Context could be things in room or "internal" stim
+- Or temporal context
+	- Info preceding items
+
+Encoding context effects
+- Recall is best if test context is sim to learning context
+- Classroom effect (Abernathy 1940)
+	- Mem is better if tested in same room as learning was done
+
+Context affects
+- Context often not praticularly informitive term
+- Intrinsic context
+	- Features which are integral part of target stim
+- Extrinsic
+	- Other features present at time of encoding (time, place, cognitive state)
+- Inability to place a face without a certain context
+
+Temporal context
+- During encoding, items associated w/ temporal context present
+	- Time tags
+- At retrieval, trying to reinstate temporal context to recall the items
+	- Mental time travel
+	- Mentally going back to that time point
+- Current temporal context "cues" which items should be recalled
+
+Lag recency effect
+- After recalling given word, recalled tends to come from nearby serial position
+- Asymmetry
+- Current item's context cues next item
+
+Internal context: mood congruency
+- Mood correlated with memory
+
+State dependent memory
+- Pharmacological state behaves like context
+- Vodka experiment
+- Drink at encoding or retrieval or both, or not at all
+- If intoxicated, better at retrieval than encoding
