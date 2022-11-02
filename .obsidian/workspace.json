@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "78292647d0b5c2c3",
+        "id": "3bbb99e217ec476f",
         "type": "tabs",
         "children": [
           {
-            "id": "bde52838b9c8b630",
+            "id": "956f9ab8c54b67a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/Homework/Week 5 reading.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/Homework/Week 5 reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Psych/Class notes.md",
+                "file": "Blues/Homework/Week 5 reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Psych/Class notes.md"
+                "file": "Blues/Homework/Week 5 reading.md"
               }
             }
           }
@@ -137,6 +137,7 @@
     "width": 100,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "bde52838b9c8b630",
   "lastOpenFiles": [
     "CS/In class/Class notes.md",
@@ -149,5 +150,19 @@
     "Psych/review of topics.md",
     "Psych/Pasted image 20221020141718.png",
     "Psych/Pasted image 20221020142543.png"
+=======
+  "active": "956f9ab8c54b67a2",
+  "lastOpenFiles": [
+    "Blues/In class/Class notes.md",
+    "Blues/In class/Things for test.md",
+    "Pasted image 20221025140709.png",
+    "Continuous distractor task.md",
+    "CS/Midterm noites.md",
+    "Blues/Homework/Week 4 reading.md",
+    "Blues/Homework/Week 5 reading.md",
+    "2022-11-01.md",
+    "Psych/Class notes.md",
+    "Writing exercise.md"
+>>>>>>> eef70f2df4730ed326f1029f2709f83ec8ec4e2d
   ]
 }
