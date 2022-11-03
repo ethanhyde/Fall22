@@ -398,3 +398,19 @@ DRAM vs NV-RAM
 - NVRAM: Non volitile Random Access Mem
 	- Stores data
 	- Info unaffected by power cycle
+
+# Week 6 Thursday 11/3
+
+2H timing 
+```C
+int numIterations = 1000000;
+int count = 0;
+struct timeval startTime
+gettimeofday(&startTime, 0);
+
+for(int i = 0; i < numIterations; ++i)
+{
+	//adds to count
+}
+```
+

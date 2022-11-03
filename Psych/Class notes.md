@@ -584,6 +584,7 @@ Pupil and imagery
 
 [[exam stuff]]
 
+#exam2
 # Week 4 Thursday 10/20
 ### Modal model 1
 
@@ -793,7 +794,7 @@ Final free recall
 - Last items presented still in STM which leads to recency
 - Items should get fewer rehearsals leading to less transfer to LTM than primary items
 - What happens if we test recall much later?
-	- Craik (1970)
+		- Craik (1970)
 		- Give words, instruct participants to read newspaper for 5 mins
 		- ^^ called "final free recall"
 		- Final recall of the experiment
