@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f86a2244e0769a11",
@@ -140,9 +139,9 @@
   "active": "bfad208bc886237f",
   "lastOpenFiles": [
     "Psych/Class notes.md",
+    "CS/In class/Class notes.md",
     "Continuous distractor task.md",
     "Blues/In class/Class notes.md",
-    "CS/In class/Class notes.md",
     "Blues/In class/Things for test.md",
     "Blues/Homework/Week 2 reading.md",
     "Blues/Homework/Week 1 Reading and videos.md",

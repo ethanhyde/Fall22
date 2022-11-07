@@ -997,7 +997,7 @@ Delayed auditory sample task
 - Two beeps
 - Subjects compare if they are same or different after a longer delay after each trial
 
-# Week 5 Tuesday 11/1
+# Week 6 Tuesday 11/1
 ### Memory as processes
 
 #### Encoding
