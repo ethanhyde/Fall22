@@ -41,6 +41,7 @@ void SortArray(int *A, int N)
 
 void DeallocateArray(int *A)
 {
+	free(A);
 }
 
 int main()
@@ -53,24 +54,30 @@ int main()
  */
     int *p;
 
-    for (int i = 0 ; i < 8 ; i++)
-    {
-        double alloc_time = 0., sort_time = 0., dealloc_time = 0.;
+	double alloc_time = 0., sort_time = 0., dealloc_time = 0.;
         struct timeval startTime;
         struct timeval endTime;
 
+
+    for (int i = 0 ; i < 8 ; i++)
+    {
         //Allocation timing
         gettimeofday(&startTime, 0);
         p = AllocateArray(sizes[i]);
         gettimeofday(&endTime, 0);
-        alloc_time = (double)(endTime.tv_sec - startTime.tv_usec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000;
+        alloc_time = (double)(endTime.tv_sec - startTime.tv_sec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000.;
 
         //Sorting timing
         gettimeofday(&startTime, 0);
         SortArray(p, sizes[i]);
         gettimeofday(&endTime, 0);
-        sort_time = (double)(endTime.tv_sec - startTime.tv_usec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000;
+        sort_time = (double)(endTime.tv_sec - startTime.tv_sec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000.;
 
+	//Deallocation timing
+	gettimeofday(&startTime, 0);
+        DeallocateArray(p);
+        gettimeofday(&endTime, 0);
+        dealloc_time = (double)(endTime.tv_sec - startTime.tv_sec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000.;
 
         /* Call the three functions in a sequence. Also use
          * gettimeofday calls surrounding each function and set the 
@@ -78,8 +85,10 @@ int main()
          */
 
         printf("Timings for array of size %d\n", sizes[i]);
-        printf("\tTime for allocation is %g, time per element = %g\n", alloc_time, alloc_time/sizes[i]);
-        printf("\tTime for sort_time is %g, time per element = %g\n", sort_time, sort_time/sizes[i]);
+        printf("\tTime for allocation is %g, time per element = %g\n", alloc_time, (alloc_time/sizes[i]));
+        printf("\tTime for sort_time is %g, time per element = %g\n", sort_time, (sort_time/sizes[i]));
         printf("\tTime for deallocation is %g\n", dealloc_time);
     }
 }
+
+
