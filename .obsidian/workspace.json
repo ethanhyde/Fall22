@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Blues/In class/Class notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f80f0794146f8f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Psych/Class notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,12 +150,12 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "bfad208bc886237f",
+  "active": "6f80f0794146f8f5",
   "lastOpenFiles": [
-    "CS/In class/Class notes.md",
-    "Psych/Class notes.md",
     "Continuous distractor task.md",
+    "Psych/Class notes.md",
     "Blues/In class/Class notes.md",
+    "CS/In class/Class notes.md",
     "Blues/In class/Things for test.md",
     "Blues/Homework/Week 2 reading.md",
     "Blues/Homework/Week 1 Reading and videos.md",

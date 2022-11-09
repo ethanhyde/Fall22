@@ -485,3 +485,50 @@ Charlie "Bird" Parker (1920-1955)
 	- Vocal quality in playing
 	- Scoops, smears, blends
 - Died of advanced cirrhosis of liver and heart attack
+
+# Week 7 Wednesday
+### Chess Records and the Chicago sound
+
+The Great migration (1940s)
+- Routes of migration
+	- TX, OK, KS to southern california
+		- T bone walker
+	- LA, AR, TN, MS to Chicago
+- 1/10th of mississippi's aftrican amer population left the state in the 40s and Chicago was most popular destination
+- Musicians like Muddy Waters, Howlin Wolf, and Buddy guy:
+	- All moved north from the south
+	- Made their names recording for simple chicago record label
+
+Muddy Waters
+- Guitar player, singer
+- First recorded by Alan Lomax in 1941 for the Library of Congress
+- Moved to Chicago in 1943 and worked outside of music for income while trying to further music career	
+- First hit recording in 1948
+	- "I feel like going home"
+	- "I can't be satisfied on B side"
+- In early 1950s he began assembling his full blues band
+- 1954 "Hoochie Coochie Man"
+- Updated Miss delta country blues for a post WW2 audience
+
+Willie Dixon
+- Songs that were super important for defining Muddy Waters
+- Combined country blues topics performed in modern amplified style
+- Familiar style for people with Sothern roots
+
+Howlin' Wolf
+- Born Chester Burnett in Mississippi
+- 1930 hears Patton, starts taking lessons with him
+- Imitates Mississippi Shieks, Patton
+- During depression, played with Rice Miller and Robert Johnson
+- Armed forces WW2
+- Formed first band in West Memphis late 1940s
+- Entertainer who was light on his feet, good dancer
+- Characteristic voice
+
+Chess records
+- Founded in Chicago by brothers Phil and Leonard Chess 1949
+- Throughout 50s and 60s, recorded blues by artists including Muddy Waters, Howlin Wolf, Buddy Guy etc..
+- Flagship artist was Muddy Waters
+- Recorded early rock and roll by Bo Diddley and Chuck Berry late 1950s
+- In 1960s they began recording soul music as well w Etta James
+- 
