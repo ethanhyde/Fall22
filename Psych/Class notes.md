@@ -1135,3 +1135,229 @@ State dependent memory
 - Vodka experiment
 - Drink at encoding or retrieval or both, or not at all
 - If intoxicated, better at retrieval than encoding
+
+# Week 7 Tuesday
+### Foregetting
+#### On the test
+
+Forgetting functions
+- Forgetting is ubiquitous
+- Process by which we lose info (over time)
+- Forgetting of info over time follows negatively accelerating function
+psychology 305 test 2 lauren
+Ebbinghaus (1885)
+- Learning nonsense syllables then testing immediatly remembers almost 100%
+- Goes down over time
+	- Big drop early then plateaus out
+
+Locus of forgetting
+- Encoding -> storage -> retrieval
+- Pseudo-forgetting
+	- Not paying attention, never encoded, can't remember it
+- Forgetting happens at each stage
+
+Consolidation
+- Neuropsysiological activity presumed to be necessary after study if a mem is solidified into nearly perminant form
+	- Persevation
+- After presentation, mems need time to solidify
+	- Based on synaptic changes
+- Disruption of consolidation process leads to degraded representations
+- Main predictions:
+	- Mental inactivity leads to better retention tan mental activity
+	- If consolidation is interrupted, representation won't be stored
+	- If consolidation is prevented, item can't be recalled
+
+Jenkins and Dellenbach (1924)
+- If mental inactivity is critical to consolidation, then going to sleep immediatley after learning should help mem
+- Learn short list of nonsense syllables
+- Sleep or stay awake 1-8 hours prior to test
+
+Ribot's (1881) law of retrograde amnesia
+- If consolidation process is disturbed, representation won't be stored
+- Retrograde amnesia
+	- After trauma, be people can't remember events before trauma
+	- Anterograde amnesia - cannot form new mems following trauma
+- Ribot's law
+	- Brain damage impairs recently formed mems to greater extent than older mems
+		- Last in, first out
+		- Mems need time to consolidate
+
+Consolidation
+- If consolidation is prevented, item can never be recalled
+- A lot of evidence inconsistent with this last prediction
+- In many situations where you could not recall something initially, given the right cues info can be recalled
+- Takes time to build the memories, if not then it is gone
+De
+Explicit - conscious
+implicit - unconscious
+
+Decay
+- Decay
+	- Memory traces face spontaneously with time
+- Law of disuse
+	- If mem representation isn't used, it gets weakened
+- Longer representation has gone without use, the more it is weakened
+
+Evidence for decay
+- Over 100 years in psych, little evidence has been found for supporting pure decay
+
+Baddley and Scott (1971)
+- Brown Peterson task for only one list
+- List 3 digits
+- Forgetting for long retentionj interval compared to 0 sec retention interval
+- Suggests some items must be decaying
+
+InterferenceR Theory
+- McGroch (1932) suggested decay wan't acceptable explaination for forgetting
+- Suggested that interference from sim items in mem accounted for most forgetting
+- 3 factor theory for forgetting
+	- Interference
+	- Altered stimulus conditions (context)
+	- Set (mindset) 
+
+#### Spend time on this
+##### Generate own examples
+##### Don't get confused with retrospective and prospective mem
+Two main types of interference
+- Retroactive interference
+	- New info interferes with ability to recall old info
+		- New address interferes with ability to recall old address
+		- New blocking old
+- Proactive interference
+	- Old info interferes with ability to recall new info
+		- Old phone num interferes with ability to recall new number
+		- Old blocking new
+	- Originally assumed retroactive was most important, but Underwood (1957) demonstrated power of proactive interference
+
+Keppel and Underwood (1962)
+- Keppel and underwood argued that forgetting in Brown-Peterson was due to PI
+- Performed Brown Peterson and examined first few trials
+- No forgetting on Trial 1, but substantial forgetting there after
+	- Build up of PI
+
+WITCKENS BORN AND ALLEN 1963
+- Similar to Keppel and underwood, but changed type of TBR item on Trial 4 (digits to letters)
+- Interference due to similarity of items
+	- Old info hurts if it is similar to what you 're trying to remember now
+- Changing of similarity should get rid of PI
+	- Release of PI
+
+Retrieval failures
+- Retrieval is complex process 
+- ETC ON SLIDES
+
+Availibility vs Accessability
+- Important distinction proposed by Tulving and Pearlstone (1966)
+- Availibility
+	- Info in adequately encoded and stored in the system
+- Accessibility
+	- Info can be adequateley retrieved from the system
+- Mems may be availible
+
+Tulving and Pearlstone (1966)
+- Are mems unavailible or inaccessable?
+- Cues can help to remember
+	- Might not be able to without the cues
+
+Search Failures
+- Inability to find what you are looking for
+- Clearly spatial metaphot of mem
+- Problems in directing search
+- Problems in focusing search
+- Think of Google
+	- Lots of info, must provide with right search terms to get right mems out
+	- Mem system needs good cues to get info out
+
+Focusing search
+- Mantyla's (1986)
+- Participants generated 1 or 3 properties to describe a word (eg. marmalade)
+	- For 500 words
+- At test given either 1 or 3 cues
+
+Cue - Overload
+- Reason why focusing is important
+- Cue overload principle (Watkins 1979)
+	- The more info that is subsumed under a given retrieval cue, the lower the probibility of retrieving any given piece of info
+
+List length Effects
+- Classic ecample of the cue overload principle
+- The longer the list, the worse your memory is
+- According to cur overload more items are subsumed under the list cue in longer list lengths than in shorter list lengths
+## Exam stuff
+Modal model
+- STM limited capacity, limited duration, need to rehearse to maintain (control processes)
+	- Chunking, coding in STM
+- LTM unlimited capacity, no limits in duration, need to rehearse to get in, retrieved back into STM to output
+
+Modal model and free recall
+- Serial vs free recall
+- Primary vs recency
+	- Rehearsel and unloading
+	- Wha's recalled the best?
+	- What's recalled first
+	- U CURVE GRAPH
+- Primacy from LTM, first items in the list
+- Recency from LTM, last items, recalled first
+- Middles not the best
+
+Working memory
+- Baddeley's Model
+- Phono loop
+	- Phono limilarity, irrelevant spech, word length, articulatory suppression
+- Visuo-spatial sketchpad
+	- Holding on to visual - spacial info
+- Central exacutive
+	- Where does it go? 
+- Episodic buffer
+	- Takes info from variety of sources, creates new memory
+- Role of frontal lobes
+	- Working memory
+	- Important for STM
+
+Encoding
+- What gets encoded?
+- Levels of processing
+	- Orthographic, phonemic, semantic
+	- Problems
+		- Says all action happens at encoding
+- Distinctiveness and organization
+- Strats to enhance encoding
+	- Elabouration, self referenct
+- Spacing effects and testing effects
+
+Encoding retrievall interactions
+- What gets retrieved?
+- Transfer appropriate processing
+	- Whatever happens at encoding must transfer to retrieval
+		- Sound cue if remembering sound
+- Context
+	- Same context, remember well
+	- Chocolate smell
+- Intrinsic and extrinsic context
+	- Intrinsic
+		- How do we define the word 
+		- Jam traffic or food?
+	- Extrinsic context
+		- Extraneous info
+		- Did you learn on land or underwater
+- Temporal context
+	- Remember what happened on wednesday, can remember on next day and next day
+- Mood congruence and state dependedt learning
+	- Happy studying, happy at test, do well
+
+Multiple mem systems
+- Idea that there are miltiple independent mem systems
+- Each system is specialized for diff processes/operations
+	- Explicit vs implicit
+	- Declarative vs procedural
+	- Prospective vs retrospective
+	- Episodic vs semantic
+		- Events vs facts
+
+Reconstruction 
+- Schemas and storytelling
+- Errors and biases in memory
+- Eyewhitness testimony
+- Can lead to false memories due to schemas
+
+Forgetting stuff from today

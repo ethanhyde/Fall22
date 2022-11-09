@@ -21,8 +21,10 @@ int *AllocateArray(int N)
 
 void SortArray(int *A, int N)
 {
+    qsort(*A, N, sizeof(int));
+    ret
 
-    int temp; //Temporary variable
+   /*/ int temp; //Temporary variable
 	for(int j = 0; j < N-1; ++j)
 	{
 		for(int z = 0; z < N-1; ++z)
@@ -36,7 +38,7 @@ void SortArray(int *A, int N)
 			}
 		}
 	}
-    
+    */
 }
 
 void DeallocateArray(int *A)
@@ -73,16 +75,11 @@ int main()
         gettimeofday(&endTime, 0);
         sort_time = (double)(endTime.tv_sec - startTime.tv_sec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000.;
 
-	//Deallocation timing
-	gettimeofday(&startTime, 0);
+	    //Deallocation timing
+	    gettimeofday(&startTime, 0);
         DeallocateArray(p);
         gettimeofday(&endTime, 0);
         dealloc_time = (double)(endTime.tv_sec - startTime.tv_sec) + (double)(endTime.tv_usec - startTime.tv_usec) / 1000000.;
-
-        /* Call the three functions in a sequence. Also use
-         * gettimeofday calls surrounding each function and set the 
-         * corresponding variable (alloc_time, sort_time, dealloc_time).
-         */
 
         printf("Timings for array of size %d\n", sizes[i]);
         printf("\tTime for allocation is %g, time per element = %g\n", alloc_time, (alloc_time/sizes[i]));
