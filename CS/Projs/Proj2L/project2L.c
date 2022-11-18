@@ -10,11 +10,7 @@ int *AllocateArray(int N)
     {
         arr[i] = rand() % 10;
     }
-    /* Allocate an array with N integers.
-     * The value of each element of the array should be a
-     * random number between 0 and 10N.
-     * Hint: use the rand() function and a modulo operator.
-     */
+   
     return arr;
 
 }
@@ -22,28 +18,6 @@ int compute(const void * A, const void * B)
 {
     return(*(int*)A) - (*(int*)B);
 
-}
-
-void SortArray(int *A, int N)
-{
-   //qsort(*A, N, sizeof(int), compute);
-    
-
-   /*/ int temp; //Temporary variable
-	for(int j = 0; j < N-1; ++j)
-	{
-		for(int z = 0; z < N-1; ++z)
-		{
-			if(A[z] > A[z+1])
-			{
-				temp = A[z];
-				A[z] = A[z+1];
-				A[z+1] = temp;
-			
-			}
-		}
-	}
-    */
 }
 
 void DeallocateArray(int *A)
@@ -64,7 +38,6 @@ int main()
 	double alloc_time = 0., sort_time = 0., dealloc_time = 0.;
         struct timeval startTime;
         struct timeval endTime;
-
 
     for (int i = 0 ; i < 8 ; i++)
     {
@@ -93,5 +66,4 @@ int main()
         printf("\tTime for deallocation is %g\n", dealloc_time);
     }
 }
-
 

@@ -621,7 +621,7 @@ Memory as storehouse
 
 Broadbent's model
 - One of first explicit models of memory
-- Influenced by information theory
+- Influenced by infourmation theory
 - Proposed three main structs
 - S-system
 	- Sensory info
@@ -977,7 +977,7 @@ Central exacutive
 - Thought to be associated w/ frontal lobes
 
 Episodic Buffer
-- "limitec capacity temp storage sys capable of integrating info from variety of sources"
+- "limited capacity temp storage sys capable of integrating info from variety of sources"
 - Controlled by CE
 - Feeds info into and retrieves info from LTS
 - Uses common "multidimentional" code
@@ -1176,7 +1176,7 @@ Ribot's (1881) law of retrograde amnesia
 - If consolidation process is disturbed, representation won't be stored
 - Retrograde amnesia
 	- After trauma, be people can't remember events before trauma
-	- Anterograde amnesia - cannot form new mems following trauma
+- Anterograde amnesia - cannot form new mems following trauma
 - Ribot's law
 	- Brain damage impairs recently formed mems to greater extent than older mems
 		- Last in, first out
@@ -1297,7 +1297,7 @@ Modal model and free recall
 	- What's recalled first
 	- U CURVE GRAPH
 - Primacy from LTM, first items in the list
-- Recency from LTM, last items, recalled first
+- Recency from STM, last items, recalled first
 - Middles not the best
 
 Working memory
@@ -1361,3 +1361,106 @@ Reconstruction
 - Can lead to false memories due to schemas
 
 Forgetting stuff from today
+
+# Week 8 Thursday 11/17
+### Problem solving and reasoning
+
+Problem solving
+- Problem occurs when theres obstacle between present state and goal
+- Definition
+	- Active efforts to discover what must be done to get around obsticle and achieve goal
+
+Greeno (1978)
+- Problems of inducing structure
+	- Require people to discover relations among numbers, words, symbols or ideas
+- Problems of arrangement
+	- Require people to arrange parts of a problem in a way that satisfies some criteria
+	- Usually solved by insight
+		- Discovery of the correct answer
+	- Are problems really solved via insight?
+	- Metcalfe and Wiebe (1987)
+	- Insight problems
+	- Non insight problems (algebra)
+	- Warmth ratings every 15 seconds
+- Problems of transformation
+	- Require people to carry out sequence of transformations in order to reach specific goal
+		- First time tying shoes, baking a cake
+
+#### Effective problem solving
+- Well definined vs ill defined problems
+- Well defined
+	- Initial state, goal state and constraints are defined
+- Ill defined
+	- One or more of the elements are incomplete or unclearly specified
+
+Barriers to effective problem solving
+	- Irrelevant info
+		- Sometimes problems involve too much info, which can lead you astray
+		- Selective attention problem, only focus on relevant info
+	- Functional fixedness
+	- Mental Set
+	- Unnecessary constraints
+- Functional fixedness
+	- Tendency to perceive an item only in terms of its most common use
+	- McGyver
+- Mental set:
+	- Exists when people persist in using problem solving strategies that worked in the past
+	- Can be disadvantageous when the old strategy doesn't wok and new created forms of thinking need to be implemented
+- Unnecessary constraints
+	- Effective problem solving requires specifying all constraints governing a problem without assuming any contstraints that don't exist
+
+#### Reasoning
+- The process by which people generate and evaluate arguments and beliefs
+- Decuctive reasoning
+	- From premeses, generate valid conclusion or evaluate validity of conclusion
+	- Solving logical or mathematical problems that have right answer
+- Inductive reasoning
+	- Drawing conclusions by going from specific to general
+	- Statistical generalizations, probilistic judgements, predictions
+- Emphasis on *human imperfection*
+	- Why are people *irrational* in their thinking?
+	- What limits efficiencey of thinking?
+
+Deductive reasoning
+- Draw conclusion from set of assumptions
+- Conditional reasoning
+	- If P then Q
+- So are people just illogical?
+- No, changing content and context of problems without changing formal structure leads to huge improvements
+
+Syllogism
+	- Set of formal statements used in deductive reasoning
+	- Comprised of 2 premesis and a conclusion
+		- Humans are mortal, i am human, therefore i am mortal
+	- Linear syllogism
+		- Linear progression in premesis
+			- You're smarter than best friend, who is smarter than your roomate, therefore you're smarter than roomate
+		- Catergorical syllogigms most commonly studied
+- Syllogistic reasoning
+	- If the two premesis are true, the conclusion of a valid syllogism must be trye
+	- The validity of syllogism is determined by the form, not the context
+
+Belief bias
+- If the conclusion is true or agrees with a person's belief, syllogism is judged as valid even if it's not
+- If conclusion is false, syllogism will be judged as invalid
+
+Mental models
+- A person's mentel representation of a situation
+- In solving syllogisms people imagine world that satisfies premesis and see if the conclusion is satisfied
+- Difficult to generate alternative mental models, which leads to errors
+- As number of potential alternatives increases, so does liklihood of making error
+- Taxes working memory
+	- Need to maintain all of the potential models and choose between them
+
+Inductive reasoning
+- Reason from specific observations to general propositions
+- With decuctive reasoning, it's possible to reach logically certain conclusions
+- With inductive, it is not possible
+- Using past knowledge to attempt and predict what will happen
+- Most often in life we're not given clearly stated premises that lead to logical conclusion
+	- Need to be able to reason when there is no logical certain conclusion
+- Inductive reasoners must state conclusions in terms of likelihoods
+- Determining argument strength
+	- Number of observations
+	- Representativeness of observations
+	- Quality of evidence
