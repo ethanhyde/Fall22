@@ -22,4 +22,11 @@ Dianah Washington
 - Underrated and underappreciated in American music
 - Early blues seen as women's music
 -  Even just the word blues was never used to describe a male singer
+
+Artists are rock n roll or R&B
+- Defined by connections
+	- How famours they are, who they know
+- How they sounded
+- Bo Diddley categorized as rock n roll, more similar to Waters or Hooker
+- Everyone puts their own twist on the genres
 - 
