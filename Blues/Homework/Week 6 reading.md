@@ -18,3 +18,22 @@ British rock
 - Eric Clapton
 	- Working thru a lot of british bands
 	- Carefully listening to Johnson
+
+Purity and authenticity of the music
+- Both super important characteristics of the music for working black musicians
+- Very different experience being a male vs a female musician
+	- Males in juke joints, on the street, opportunities festivals
+	- Blues queens were women who were lucky to make it work
+	- Displaced and used their talent as a way to make a living
+	- Jim crow laws caused women to leave the south as well
+- "These women and the markey they halped produce exerted signifigant cultural and economic power for about a decade" (44)
+- Artists saw this change as something new that did a good job of representing the pressure musicians felt from being part of a capitalist society
+
+Bessie Smith "Tnking blues"
+- Thinking blues was first recorded in 1928 in New York
+- Consists of many common themes that are in women's blues
+	- Fractured relationships, heartbreak, remorse, etc
+- Contains splashes of humor throughout the song which help to lighten the modd
+- Erotic
+- Call and response
+- Live show would have helped to emplasise this aspect

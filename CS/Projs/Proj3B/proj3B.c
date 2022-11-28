@@ -1,3 +1,21 @@
+// Hash function from https://www.codingninjas.com/codestudio/library/double-hashing
+/*
+-----------------PROJECT 3B REPORT--------------------
+After timing this project, I found that hash tables are much faster.
+The fetch function took about 0.000047 seconds each time, whereas
+using the dictionary was about 10 times slower. The store function
+varried a lot depending on where the program was hashing the value to. 
+For example, some elements took only 0.00001 seconds, but I also had elements that
+took .142137 seconds. My first hash functions were a lot more inneficient, 
+I had implemented them from slide 35 of the week 15 lectures. I immediatley
+discovered that these new hash functions had a lot less collisions than the
+functions from the book. When I was checking this, I saw that nearly every
+element was having a collision while I had the hash function implemented for
+the book. After changing to these hash functions, I still have about 20
+collisions each time I run the program, but it was nearly 4 times that  while
+using the hash functions from the book. 
+
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,88 +28,98 @@ typedef struct
     char **keys;
     int currIndex;
     float *values;
-    int hashKey;
     
 } ArrayDictionary;
 
-ArrayDictionary *hashArray[91];
-
-float indexFind(int key)
+int hashCode1(char *key)
 {
-    return key % 91;
-}
-
-ArrayDictionary *hashCode(ArrayDictionary *ad, char *date, float value, int hashKey)
-{
-    int hashIndex = indexFind(value);
-
-    while(hashArray[hashIndex] != NULL)
-    {
-        if(hashArray[hashIndex]->hashKey == hashKey)
-        {
-            return hashArray[hashIndex];
-        }
-
-        ++hashIndex;
-        hashIndex %= 91;
-    
+    unsigned int hashval = 0;
+    for (int i = 0; i < strlen(key); i++) {
+        hashval = (37 * hashval + key[i]) % MAX_SIZE;
     }
-    return NULL;
+    return hashval;
 }
 
-void InsertToHash(ArrayDictionary *ad, char *date, float value, int hashKey)
+int hashCode2(char *key)
 {
+    int hashval = 0;
+    for (int i = 0; i < strlen(key); i++) {
+        hashval = 29 * hashval + key[i];
+    }
+    return 19997 - (hashval % 19997);
     
 }
 
+void Store(ArrayDictionary *ad, char *date, float value)
+{
+    long index = hashCode1(date);
+    long offset = hashCode2(date);
 
+    if(ad->values[index] == 0)
+    {
+        ad->keys[index] = date;
+        ad->values[index] = value;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    else
+    {
+        int indx = 0;
+        
+        for(int i = 0; i < MAX_SIZE; i++)
+        {    
+            indx = (int)(index + i * offset) % MAX_SIZE;   
+            if(ad->values[indx] == 0)
+            {
+                
+                ad->keys[indx] = date;
+                ad->values[indx] = value;
+                break;
+            }
+        }
+    }
+}
 
 void Initialize(ArrayDictionary *ad)
 {
    ad->values = malloc(MAX_SIZE * sizeof(float));
    ad->keys = malloc(MAX_SIZE * sizeof(char *));
-   ad->currIndex = 0;
+
+   for(int i = 0; i < MAX_SIZE; i++)
+   {
+        ad->keys[i] = NULL;
+        ad->values[i] = 0;
+   }
 }
 
-void Store(ArrayDictionary *ad, char *key, float value)
+float Fetch(ArrayDictionary *ad, char *date)
 {
-    if(ad->currIndex >= MAX_SIZE)
-    {
-        exit(EXIT_FAILURE);
-    }
-   ad->keys[ad->currIndex] = key;
-   ad->values[ad->currIndex] = value;
-   ad->currIndex++;
+    long index = hashCode1(date);
+    long offset = hashCode2(date);
 
-}
-
-float Fetch(ArrayDictionary *ad, char *key)
-{
-    for(int i = 0; i < ad->currIndex; ++i)
-    {
-        if(strcmp(ad->keys[i], key) == 0)
+    if(strcmp(ad->keys[index], date) == 0)
         {
-            return ad->values[i];
+            return ad->values[index];
+        }
+
+    else
+    {
+        int indx = 0;
+
+        for(int i = 0; i < MAX_SIZE; i++)
+        {       
+            indx = (int)(index + i * offset) % MAX_SIZE;
+            
+            if(strcmp(ad->keys[indx], date) == 0)
+            {
+                return ad->values[indx];
+            }
         }
     }
-   return 0.;
 }
-
 
 int main()
 {
+    
     FILE *f = fopen("DJIA", "r");
     if (f == NULL)
     {
@@ -104,10 +132,9 @@ int main()
     size_t size = 1024;
     char *buffer = malloc(size*sizeof(char));
     char *date = malloc(80);
-
     while (getline(&buffer, &size, f) > 0)
     {
-        printf("The line is \"%s\"\n", buffer);
+        //printf("The line is \"%s\"\n", buffer);
         char *str;
         float closePrice;
         float other1;
@@ -117,8 +144,8 @@ int main()
         sscanf(buffer, "%s %f %f %f %f", date, &other1, &other2, &other3, &closePrice);
  
         str = strdup(date);
-       
-        Store(&ad, str, closePrice);
+    
+       Store(&ad, str, closePrice);
     }
 
     char dates[91][10] = {
@@ -136,26 +163,22 @@ int main()
            };
 
     float sum = 0; //Sum for final answer 
-    
+
     for (int i = 0 ; i < 91 ; i++)
     {
-        // You will need to repeat the code from the last while loop to get the data as a "char *"
-  
         float val = Fetch(&ad, dates[i]);
-        int val2 = Fetch(&ad, dates[i]);
-        hashCode(&ad, dates[i], val2, i);
         if (val == 0.)
         {
             printf("Bad fetch!\n");
             exit(EXIT_FAILURE);
         }
-        sum = sum + val;
-    }
         
+        sum = sum + val;
+
+    }
+   
     // Uncomment this.  Not it assumes you called your sum variable "sum"
     printf("Over the 91 days, the average value was %d\n", (int)(sum/91.0));
     // It should print:
     //    Over the 91 days, the average value was 13209
 }
-
-
