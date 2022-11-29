@@ -35,9 +35,10 @@ void initializeQueue(Queue *q)
   char *strings[QUEUE_SIZE];
 }
 
-void enqueue(char *word, Queue *q)
+void enqueue(char t, char b, char n, Queue *q)
 {
-  int front;
+  
+ /* int front;
   if(q->population == q->capacity)
   {
     printf("Queue is full\n");
@@ -57,6 +58,7 @@ char dequeue(Queue *q)
   {
     q->front--;
   }
+  */
 }
 
   
@@ -170,6 +172,17 @@ Printing queue 0x7fff5e6878a8
              You should exit with an error if file opening fails.
   ***/
 
+ char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
+
+  struct queue *donors[BLOOD_TYPES];
+  struct queue *recipients[BLOOD_TYPES];
+  struct queue *surgeons = malloc(sizeof *surgeons);
+
+  char type; //Donor, recipient or surgeon
+  char blood;//Which blood type
+  char name; //Name
+
+
  FILE *f = fopen("3C-input.txt", "r");
     if (f == NULL)
     {
@@ -181,9 +194,21 @@ Printing queue 0x7fff5e6878a8
     char *buffer = malloc(size*sizeof(char));
     char *date = malloc(80);
 
+    int i = 0; //Counter
+
      while (getline(&buffer, &size, f) > 0)
     {
-      
+      sscanf(buffer, "%s %s %s", &type, &blood, &name);
+
+      //Identifies what to do with each person
+      if(type == 'R')
+      {
+        //Looks to see if any suregons are availible, if not, enqueue
+        if(surgeons->population == 0)
+        {
+          enqueue(type, blood, name, recipients);
+        }
+      }
     }
 
   /***
@@ -206,12 +231,13 @@ Printing queue 0x7fff5e6878a8
   /* Here is a suggested helper array for facilitating matching as
     described in the prompt. The blood types are listed from most
     rare to least rare. */
+    /*
   char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
 
   struct queue *donors[BLOOD_TYPES];
   struct queue *recipients[BLOOD_TYPES];
   struct queue *surgeons = malloc(sizeof *surgeons);
-
+  */
 
 
   /***
