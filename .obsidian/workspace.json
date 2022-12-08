@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0f3753aab0130f23",
+        "id": "52dcc33c75de9241",
         "type": "tabs",
         "children": [
           {
-            "id": "d5fed4a17505fcc1",
+            "id": "eef6ba08f8fc843e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blues/Homework/Week 6 reading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "858652c5e4e4da6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blues/In class/Class notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae92e889849aa2d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blues/Homework/Week 7 reading.md",
+                "file": "Psych/Class notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blues/Homework/Week 6 reading.md",
+                "file": "Psych/Class notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blues/Homework/Week 6 reading.md",
+                "file": "Psych/Class notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blues/Homework/Week 6 reading.md"
+                "file": "Psych/Class notes.md"
               }
             }
           }
@@ -161,17 +137,17 @@
     "width": 100,
     "collapsed": true
   },
-  "active": "d5fed4a17505fcc1",
+  "active": "eef6ba08f8fc843e",
   "lastOpenFiles": [
+    "Psych/Class notes.md",
+    "Blues/Homework/Last one.md",
+    "Psych/Creatine and cognitive functioning.md",
+    "Blues/Homework/Week 8 Reading.md",
+    "Blues/Homework/Week 5 reading.md",
     "Blues/Homework/Week 7 reading.md",
     "Blues/Homework/Week 6 reading.md",
     "Blues/In class/Class notes.md",
-    "Blues/Homework/Week 5 reading.md",
     "CS/In class/Class notes.md",
-    "Psych/Class notes.md",
-    "2022-11-01.md",
-    "CS/In class/.md",
-    "REview.md",
-    "Continuous distractor task.md"
+    "2022-11-01.md"
   ]
 }

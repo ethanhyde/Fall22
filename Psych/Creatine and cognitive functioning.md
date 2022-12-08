@@ -1,0 +1,44 @@
+### Intro
+- Effects of creatine in younger and healthy population have mixed results
+- Exercise benefitc cognitive process in both young and older adults
+- Popular supplement for athletes
+	- Helps with recovery, heat tolerance
+- Brain now has increased energy demands and muscles
+- Goes where it is needed the most
+- Reserve energe resource
+- Natural creatine increases cognitive functioning when exercising
+- Past studies found that creatine helps mood when someone is sleep deprived
+	- Caffine, short term solution similar 
+- Creatine supps have mixed results on if it helps w executive functioning and working mem tasks
+-  Benefits STM tasks and reasoning, but things regarding exec functioning is conflic
+- Vegetarian diet
+	- Creatine seems to have greater effect on young vegeterians
+	- Creatine found in most meat and fish, lower for vegeterians
+- This experiment looks into working mem, attention, mind wantering and processing speed
+- Hypothesised that creatine supplementation would result in lower levels of negative affect, state anxiety, and perceived stress but would not impact levels of trait anxiety
+
+### Methods
+- 49 participants at Nova Southeastern University
+	- Partial course credit
+- Tested to make sure they weren't using additional creatine
+- Either assigned creatine supp of control
+- 3 sessions for study measures
+	- Between 1 and 2, 5mg of creatine per day and control didn't have any. 50/50 split
+- Between Trial 2 and 3, covid inturruption, less signifigant evidence
+- Only looking at trial 1 and 2
+- Semantic sustained attention to response task
+	- Stimuli presented on screen for 300ms, then a mark for 1500ms
+	- Frequent to frequent non target stimuli 4
+	- 675 trials for 600 non target trials (40 unique animal names)
+	- Demonstrates being able to control focus and attention
+- Thought probes
+	- Participants asked "What were you just thinking about?"
+	- Probes occured after 30 trials
+	- Measures mind wandering and gives indication of focus
+- Symmetry span task
+	- Requires participants to remember something whil ebeing engaged in a distractor processing task
+	- Asked to confirm symmetry of a photo
+	- Participants asked to recall squares in the otder they were presented in
+- Pattern compasison task
+	- Measures processing speed
+	- 

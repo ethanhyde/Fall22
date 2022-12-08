@@ -1,9 +1,3 @@
-/* CS 212 Project: Donations (2022)
-   ~Always appreciated, never expected, non-refundable~
-
-   Author: S. Isaac Geronimo Anderson (Fall 2022)
-   */
-
 #include <stdio.h>   /* printf */
 #include <stdlib.h>  /* malloc */
 #include <string.h>  /* strcmp */
@@ -22,7 +16,7 @@ struct queue
   int back;       //Back of the queue
   int population; //Num of people
   int capacity;   //Limit
-  char *strings[];
+  char *name[LINE_LENGTH];
 };
 typedef struct queue Queue;
 
@@ -32,37 +26,38 @@ void initializeQueue(Queue *q)
   q->back = 0;
   q->population = 0;
   q->capacity = QUEUE_SIZE;
-  char *strings[QUEUE_SIZE];
+  //char *name[LINE_LENGTH];
 }
 
-void enqueue(char t, char b, char n, Queue *q)
+void enqueue(char *n, Queue *q)
 {
-  
- /* int front;
   if(q->population == q->capacity)
   {
     printf("Queue is full\n");
     exit(EXIT_FAILURE);
   }
+  
+  q->name[q->back] = n;
+  printf("Name is %s\n", q->name[q->back]);
 
-  q->strings[q->back] = word;
-  //q->front++;
   q->population++;
   q->back++;
-
-}
-
-char dequeue(Queue *q)
-{
-  if(q->front > 0)
-  {
-    q->front--;
-  }
-  */
-}
-
+  //printf("Front is %d, back is %d\n", q->front, q->back);
   
 
+}
+
+char *dequeue(char *n, Queue *q)
+{
+  char *rv = q->name[0];
+
+  for (int i = 0; i < q->population-1; i++)
+  {
+    q->front = q->front + 1;
+    q->population--;
+  }
+  return rv;
+}
 
 
 /* Your code goes above this line. */
@@ -99,7 +94,7 @@ void printQueue(struct queue *q)
     for (int i = 0; i < q->population; i++)
     {
       int index = (q->front + i) % QUEUE_SIZE;
-      printf("\t\tEntry[%d]: \"%s\"\n", index, q->strings[index]);
+      printf("\t\tEntry[%d]: \"%s\"\n", index, q->name[index]);
     }
   }
 }
@@ -126,91 +121,124 @@ void prettyPrintQueue(struct queue *q, char *label, char *type)
 
 int main(int argc, char **argv)
 {
-  /***  STEP #1: Implement your queue code and test it.  ***/
+ FILE *f = fopen(argv[1], "r");
+  if (f == NULL)
+  {
+    fprintf(stderr, "Unable to open file.\n");
+    exit(EXIT_FAILURE);
+  }
 
-  /* This test code: */
- /* 
-  struct queue *q = malloc(sizeof (struct queue));
-  initializeQueue(q);
-  printQueue(q);
-  enqueue("hello", q);
-  printQueue(q);
-  enqueue("world", q);
-  printQueue(q);
-  printf("Dequeue: %s\n", dequeue(q));
-  printQueue(q);
-  free(q);
-  */
-  /* Gives this output (with different pointers):
+  char type = '\0';        //Donor, recipient or surgeon
+  char* name = malloc(60); //Name
+  char* blood = malloc(3); //Which blood type
 
-Printing queue 0x7fff5e6878a8
-	The index for the front of the queue is 0
-	The index for the back of the queue is 0
-	The queue is empty.
-Printing queue 0x7fff5e6878a8
-	The index for the front of the queue is 0
-	The index for the back of the queue is 1
-		Entry[0] = "hello"
-Printing queue 0x7fff5e6878a8
-	The index for the front of the queue is 0
-	The index for the back of the queue is 2
-		Entry[0] = "hello"
-		Entry[1] = "world"
-Dequeue: hello
-Printing queue 0x7fff5e6878a8
-	The index for the front of the queue is 1
-	The index for the back of the queue is 2
-		Entry[1] = "world"
-  */
-
-  /***
-    STEP #2: Open the input file (argc/argv stuff).
-             You should read the file line-by-line in the next step
-             using fgets (or fscanf or getline).
-             Note: You must not hard-code the input file name.
-             You must not use fread.
-             You should exit with an error if file opening fails.
-  ***/
-
- char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
+  char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
 
   struct queue *donors[BLOOD_TYPES];
   struct queue *recipients[BLOOD_TYPES];
-  struct queue *surgeons = malloc(sizeof *surgeons);
+  struct queue *surgeons = malloc(sizeof(struct queue));
+  size_t size = 64;
+  char *buffer = malloc(size * sizeof(char));
 
-  char type; //Donor, recipient or surgeon
-  char blood;//Which blood type
-  char name; //Name
+  for(int i = 0; i < 4; ++i)
+  {
+    //Initializes donors
+    donors[i] = malloc(sizeof(Queue));
+    initializeQueue(donors[i]);
 
+    //Initializes recipients
+    recipients[i] = malloc(sizeof(Queue));
+    initializeQueue(recipients[i]);
 
- FILE *f = fopen("3C-input.txt", "r");
-    if (f == NULL)
+    initializeQueue(surgeons);
+
+  }
+
+  while(getline(&buffer, &size, f) > 0)
+  {
+    printf("Buffer 0 is %c\n", buffer[0]);
+    if(buffer[0] == 'S')
     {
-         fprintf(stderr, "Unable to open file\n");
-         exit(EXIT_FAILURE);
+      //type = 'S';
+      name = strdup(buffer+2);
+      //Looks for donors and matching recipient before enququeing suregon
+      for(int i = 0; i < BLOOD_TYPES; i++)
+      {
+        if(donors[i]->population > 0 && recipients[i]->population > 0)
+        {
+          printf("ENQUEUE SUREGON\n");
+          enqueue(name, surgeons);
+          break;
+          
+        }
+      }
+
     }
 
-    size_t size = 1024;
-    char *buffer = malloc(size*sizeof(char));
-    char *date = malloc(80);
-
-    int i = 0; //Counter
-
-     while (getline(&buffer, &size, f) > 0)
+    else
     {
-      sscanf(buffer, "%s %s %s", &type, &blood, &name);
-
-      //Identifies what to do with each person
+      sscanf(buffer, "%[^:]:%[^:]:%[^\n]\n", &type, blood, name);
+    
+      //Recipients
       if(type == 'R')
       {
-        //Looks to see if any suregons are availible, if not, enqueue
+        //If there are no surgeons availible, enqueue recipient
         if(surgeons->population == 0)
         {
-          enqueue(type, blood, name, recipients);
+          for(int i = 0; i < 4; ++i)
+          {
+            if(strcmp(blood, types[i]) == 0)
+            {
+              enqueue(name, recipients[i]);
+              break;
+            }
+          }
+        }
+        
+        //If there are surgeons, look for match
+        else
+        {
+          if(donors[0]->population > 0)
+          {
+             printf("MATCH: %s donates to %s via Dr. %s\n",*donors[0]->name,*recipients[0]->name,*surgeons->name);
+            // dequeue(name, );
+          }
         }
       }
     }
+      //Donors
+      if(type == 'D')
+      {
+        if(surgeons->population == 0)
+        {
+          for(int i = 0; i < 4; ++i)
+          {
+            if(strcmp(blood, types[i]) == 0)
+            {
+              enqueue(name, donors[i]);
+              break;
+            }
+          }
+        }
+      }
+      else
+      {
+        if(recipients[0]->population > 0)
+        {
+          //dequeue();
+        }
+      }
 
+  
+  }
+    
+      //printf("TYPE IS %c, BLOOD IS %s, NAME IS %s\n", type, blood, name);
+      //printf("recipients are %s", recipients[0]->name);
+    
+
+
+
+  
   /***
     STEP #3: After your queue code works and after you can read the
              file, implement the prompt.
@@ -231,13 +259,13 @@ Printing queue 0x7fff5e6878a8
   /* Here is a suggested helper array for facilitating matching as
     described in the prompt. The blood types are listed from most
     rare to least rare. */
-    /*
+  /*
   char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
 
   struct queue *donors[BLOOD_TYPES];
   struct queue *recipients[BLOOD_TYPES];
   struct queue *surgeons = malloc(sizeof *surgeons);
-  */
+  */  
 
 
   /***
@@ -267,7 +295,7 @@ Printing queue 0x7fff5e6878a8
   ***/
 
   /* If you have time, be sure to free any memory you allocated. */
-  free(surgeons);
+ // free(surgeons);
 
   return EXIT_SUCCESS;
 }
