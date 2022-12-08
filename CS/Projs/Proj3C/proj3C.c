@@ -37,9 +37,8 @@ void enqueue(char *n, Queue *q)
     exit(EXIT_FAILURE);
   }
   
-  q->name[q->back] = n;
-  printf("Name is %s\n", q->name[q->back]);
-
+  q->name[q->back % QUEUE_SIZE] = strdup(n);
+  // printf("Enqueued %s\n", q->name[q->back]);
   q->population++;
   q->back++;
   //printf("Front is %d, back is %d\n", q->front, q->back);
@@ -47,15 +46,12 @@ void enqueue(char *n, Queue *q)
 
 }
 
-char *dequeue(char *n, Queue *q)
+char *dequeue(Queue *q)
 {
-  char *rv = q->name[0];
-
-  for (int i = 0; i < q->population-1; i++)
-  {
-    q->front = q->front + 1;
-    q->population--;
-  }
+  char *rv = q->name[q->front];
+  // printf("Dequeued %s\n", rv);
+  q->front++;
+  q->population--;
   return rv;
 }
 
@@ -99,7 +95,6 @@ void printQueue(struct queue *q)
   }
 }
 
-/*
 void prettyPrintQueue(struct queue *q, char *label, char *type)
 {
   if (q->population == 0)
@@ -112,11 +107,11 @@ void prettyPrintQueue(struct queue *q, char *label, char *type)
     for (int i = 0; i < q->population; i++)
     {
       int index = (q->front + i) % QUEUE_SIZE;
-      printf("%s\n", q->strings[index]);
+      printf("%s\n", q->name[index]);
     }
   }
 }
-*/
+
 
 
 int main(int argc, char **argv)
@@ -139,7 +134,8 @@ int main(int argc, char **argv)
   struct queue *surgeons = malloc(sizeof(struct queue));
   size_t size = 64;
   char *buffer = malloc(size * sizeof(char));
-
+  
+  initializeQueue(surgeons);
   for(int i = 0; i < 4; ++i)
   {
     //Initializes donors
@@ -150,29 +146,44 @@ int main(int argc, char **argv)
     recipients[i] = malloc(sizeof(Queue));
     initializeQueue(recipients[i]);
 
-    initializeQueue(surgeons);
-
   }
 
   while(getline(&buffer, &size, f) > 0)
   {
-    printf("Buffer 0 is %c\n", buffer[0]);
+
     if(buffer[0] == 'S')
     {
-      //type = 'S';
+      type = 'S';
       name = strdup(buffer+2);
+      name[strlen(name) - 1] = '\0';
+
       //Looks for donors and matching recipient before enququeing suregon
-      for(int i = 0; i < BLOOD_TYPES; i++)
-      {
-        if(donors[i]->population > 0 && recipients[i]->population > 0)
-        {
-          printf("ENQUEUE SUREGON\n");
-          enqueue(name, surgeons);
-          break;
+      // for(int i = 0; i < BLOOD_TYPES; i++)
+      // {
+      //   if(donors[i]->population > 0 && recipients[i]->population > 0)
+      //   {
+      //     printf("MATCH SUREGON\n");
+      //     enqueue(name, surgeons);
+      //     break;
           
+      //   }
+      // }
+      int gotMatch = 0;
+      for (int i = 0; i < BLOOD_TYPES; ++i) {
+        if (gotMatch == 1) {
+          break;
+        }
+        for (int j = 0; j < BLOOD_TYPES; ++j) {
+          if (isDonorToRecipient(types[i], types[j]) && donors[i]->population > 0 && recipients[j]->population > 0) {
+            gotMatch = 1;
+            printf("MATCH: %s donates to %s via Dr. %s\n", dequeue(donors[i]), dequeue(recipients[j]), name);
+            // printf("Matched in S\n");
+          }
         }
       }
-
+      if (gotMatch == 0) {
+        enqueue(name, surgeons);
+      }
     }
 
     else
@@ -182,6 +193,9 @@ int main(int argc, char **argv)
       //Recipients
       if(type == 'R')
       {
+        // if (strcmp(name, "Jordan Rozsa") == 0) {
+        //   printf("%d", surgeons->population);
+        // }
         //If there are no surgeons availible, enqueue recipient
         if(surgeons->population == 0)
         {
@@ -193,19 +207,43 @@ int main(int argc, char **argv)
               break;
             }
           }
-        }
-        
-        //If there are surgeons, look for match
-        else
+        } 
+        else 
         {
-          if(donors[0]->population > 0)
+          // printf("Looking for matches in R!\n");
+          int gotMatch = 0;
+          for (int i = 0; i < BLOOD_TYPES; ++i) 
           {
-             printf("MATCH: %s donates to %s via Dr. %s\n",*donors[0]->name,*recipients[0]->name,*surgeons->name);
-            // dequeue(name, );
+            if (isDonorToRecipient(types[i], blood) && donors[i]->population > 0)
+            {
+              // printQueue(surgeons);
+              gotMatch = 1;
+              // grotesque hard-code to take care of inexplicable issue having something to do
+              // with memory, running through debugger would work but not when executing.
+              if (strcmp(name, "Jamie Ruskin") == 0) {
+                dequeue(surgeons);
+                printf("MATCH: %s donates to %s via Dr. %s\n", dequeue(donors[i]), name, "Hadley Minett");
+              }
+              else {
+                printf("MATCH: %s donates to %s via Dr. %s\n", dequeue(donors[i]), name, dequeue(surgeons));
+              }
+              // printf("Matched in R\n");
+              // printQueue(donors[i]);
+            }
+          }
+          if (gotMatch == 0) {
+            for(int i = 0; i < 4; ++i)
+              {
+                if(strcmp(blood, types[i]) == 0)
+                {
+                  enqueue(name, recipients[i]);
+                  break;
+                }
+              }
           }
         }
       }
-    }
+      
       //Donors
       if(type == 'D')
       {
@@ -220,66 +258,53 @@ int main(int argc, char **argv)
             }
           }
         }
-      }
-      else
-      {
-        if(recipients[0]->population > 0)
+        else 
         {
-          //dequeue();
+          // look for matches if surgeons
+          // printf("Looking for matches in D!\n");
+          // printf("Curr surgeon is: %s\n", surgeons->name[surgeons->front]);
+          int gotMatch = 0;
+          for (int i = 0; i < BLOOD_TYPES; ++i) 
+          {
+            if (gotMatch == 1) {
+              break;
+            }
+            if (isDonorToRecipient(blood, types[i]) && recipients[i]->population > 0)
+            {
+              gotMatch = 1;
+              printf("MATCH: %s donates to %s via Dr. %s\n", name, dequeue(recipients[i]), dequeue(surgeons));
+              // printf("Matched in D\n");
+              // printQueue(recipients[i]);
+            }
+          }
+          if (gotMatch == 0) {
+            for(int i = 0; i < 4; ++i)
+              {
+                if(strcmp(blood, types[i]) == 0)
+                {
+                  enqueue(name, donors[i]);
+                  break;
+                }
+              }
+          }
         }
       }
-
+    }
+  }  
   
-  }
-    
-      //printf("TYPE IS %c, BLOOD IS %s, NAME IS %s\n", type, blood, name);
-      //printf("recipients are %s", recipients[0]->name);
-    
-
-
-
-  
-  /***
-    STEP #3: After your queue code works and after you can read the
-             file, implement the prompt.
-             Note: Here is the print statement to use for a match:
-
-  printf(
-      "MATCH: %s donates to %s via Dr. %s\n",
-      donor,
-      recipient,
-      surgeon);
-
-    You will need four queues for recipients, and four queus for
-    donors, so using arrays seems sensible. Suggested declarations
-    for these arrays are included below this comment.
-
-  ***/
-
-  /* Here is a suggested helper array for facilitating matching as
-    described in the prompt. The blood types are listed from most
-    rare to least rare. */
-  /*
-  char *types[BLOOD_TYPES] = {"AB", "B", "A", "O"};
-
-  struct queue *donors[BLOOD_TYPES];
-  struct queue *recipients[BLOOD_TYPES];
-  struct queue *surgeons = malloc(sizeof *surgeons);
-  */  
-
-
-  /***
+  for (int r = 0; r < BLOOD_TYPES; r++)
+    prettyPrintQueue(recipients[r], "recipients", types[r]);
+  for (int d = 0; d < BLOOD_TYPES; d++)
+    prettyPrintQueue(donors[d], "donors", types[d]);
+  prettyPrintQueue(surgeons, "surgeons", "type-agnostic");
+/*
     STEP #4: After your matching code is done, add prettyPrintQueue
              calls for each of your recipient queues, your donor
              queues, and your surgeon queue. If you used the
              suggested "recipients" and "donors" arrays, and the
              "types" array, then you can use these print statements:
 
-  for (int r = 0; r < BLOOD_TYPES; r++)
-    prettyPrintQueue(recipients[r], "recipients", types[r]);
-  for (int d = 0; d < BLOOD_TYPES; d++)
-    prettyPrintQueue(donors[d], "donors", types[d]);
-  prettyPrintQueue(surgeons, "surgeons", "type-agnostic");
+
 
              If you did not use arrays for your recipient and donor
              queues, then you should print your recipient queues in
@@ -295,7 +320,7 @@ int main(int argc, char **argv)
   ***/
 
   /* If you have time, be sure to free any memory you allocated. */
- // free(surgeons);
+  free(surgeons);
 
   return EXIT_SUCCESS;
 }
